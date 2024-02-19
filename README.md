@@ -14,5 +14,8 @@ La page de contact est là pour faciliter la communication.
 N'hésitez pas à m'envoyer un message si vous avez des questions, des propositions de collaboration ou simplement pour échanger sur des sujets liés à l'informatique et bien plus encore. 
 
 
-Voici le lien figma de la maquette du site que j'ai réalisé : https://www.figma.com/file/AphN13iJutwfQuTcNRlKs9/Maquettes_Portfolio?type=whiteboard&t=zC6yzSCoObHlI72m-1
+Voici le lien figma de la maquette du site que j'ai réalisé :
+
+https://www.figma.com/file/AphN13iJutwfQuTcNRlKs9/Maquettes_Portfolio?type=whiteboard&t=zC6yzSCoObHlI72m-1
+
 Merci de visiter mon site portfolio !
