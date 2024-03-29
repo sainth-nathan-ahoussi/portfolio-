@@ -1,0 +1,438 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 10vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1521321989933-6eaf18dfc488?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.navbar{
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 30px;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+
+.logo img{
+  width: 70px;
+  height: 70px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+  margin-top: 10%;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+ 
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+ 
+}
+
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+h1 {
+  color: #a17d60;
+  font-size: 200px;
+  width: fit-content;
+}
+
+h3{
+  color:#fff;
+  font-size: 35px;
+}
+
+p{
+  color:#fff;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+button{
+  width: 100px;
+  color: #a17d60;
+  font-size: 12px;
+  padding: 12px 0;
+  background-color: transparent;
+  border: 0;
+  outline: solid #a17d60;
+  margin-top: 30px;
+}
+
+
+.grilleParcours {
+  display: grid;
+  grid-template-columns: 7;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.parcours .grilleParcours img{
+  width: 100px;
+  height: 100px;
+}
+
+.College{
+  grid-column: 1;
+}
+.Pix{
+  grid-column: 2;
+}
+.Brevet{
+  grid-column: 3;
+}
+.LyceeV{
+  grid-column: 4;
+}
+.LyceeM{
+  grid-column: 5;
+}
+.Bac{
+  grid-column: 6;
+}
+.Orsay{
+  grid-column: 7;
+}
+
+.presentation p {
+  color:black ;
+}
+.moi{
+  grid-column: 2;
+}
+
+.presentation .moi p {
+  font-size: 15px;
+}
+
+.grillePresentation{
+  display: grid;
+  grid-template-columns: 2 ;
+}
+
+.photo{
+  grid-column: 1;
+}
+
+.photo .me img {
+  width: 300px;
+  height: 300px;
+  position: static;
+  margin-left: 80px;
+  margin-right: 10px;
+  border: solid black 20px;
+}
+
+
+.cv a {
+  outline: solid black;
+  background-color: black;
+  padding: 10px 10px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.presentation .grillePresentation .company{
+  margin-left: 20px;
+  align-items: center;
+  text-align: center;
+}
+.presentation .grillePresentation .company p {
+  font-weight: bolder;
+}
+
+.company img{
+  width: 400px;
+  height: 200px;
+  
+}
+
+.grilleToolbox{
+  display: grid;
+  grid-template-columns:10 ;
+  grid-template-rows: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hobbies h4, .languages h4,
+ .toolbox h4{
+  color: black;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.hobbies p, .languages p,
+ .toolbox p {
+  color: black;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.languages{
+  background-color:#c2c2c2;
+}
+
+
+.languages .grilleLanguages {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows:4 ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+  text-align: center;
+}
+
+.languages .grilleLanguages img {
+  width:90px;
+}
+
+.japon{ grid-column: 1; grid-row: 1; }
+.espagne{grid-column: 1; grid-row: 2; margin-top: 12px;}
+.portugal{grid-column: 1; grid-row: 3; margin-top: 12px;} 
+.coteIvoire{grid-column: 1; grid-row: 4; margin-top: 12px;}
+.anglais{grid-column: 2; grid-row: 1;}
+.france{grid-column: 2; grid-row: 2; margin-top: 12px;}
+.coree{grid-column: 2; grid-row: 3;}
+.nigeria{grid-column: 2; grid-row: 4; margin-top: 12px;}
+.creole{grid-column: 3; grid-row: 1;}
+.italie{grid-column: 3; grid-row: 2;}
+.congo{grid-column: 3; grid-row: 3;}
+
+
+
+
+.hobbies
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.grilleHobbies{
+  display: grid;
+  grid-template-columns: 6;
+  grid-template-rows: 2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+  text-align: center;
+}
+
+.grilleHobbies img{
+  width: 60px;
+  height: 60px;
+}
+
+
+.Basket{grid-column: 1; grid-row: 1;}
+.Boxe{grid-column: 2; grid-row: 1;}
+.Foot{grid-column: 3; grid-row: 1;}
+.Photo{grid-column: 4; grid-row: 1;}
+.Montage{grid-column: 5; grid-row: 1;}
+.Langues{grid-column: 6; grid-row: 1;}
+.Piano{grid-column: 1; grid-row: 2;}
+.Guitare{grid-column: 2; grid-row: 2;}
+.Musique{grid-column: 3; grid-row: 2;}
+.Voyager{grid-column: 4; grid-row: 2;}
+.Jeu{grid-column: 5; grid-row: 2;}
+.Electronique{grid-column: 6; grid-row: 2;}
+
+
+/* 
+Footer 
+ */
+
+footer{
+  position: static;
+  margin-top: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: #000000;
+  color: #000000;
+  
+}
+
+.footerMenu{
+  margin-left: 20%;
+  margin-right: 20%;
+  display: grid;
+  grid-template-rows: 2;
+}
+.grilleReseau{
+  grid-row: 1 ;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+
+.message{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 20%;
+}
+
+.message p{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.listeLogo{
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+  grid-template-columns: 3;
+}
+
+.github{
+  grid-column: 1;
+}
+
+.twitter{
+  grid-column: 2;
+}
+
+.linkedin{
+  grid-column: 3;
+}
+
+.listeLogo img{
+  width: 60px;
+  height: 60px;
+}
+
+.logo2{
+  grid-column: 2;
+  grid-row: 1;
+  margin-right: 40%;
+ 
+}
+
+.logo2 img{
+  width: 150px;
+  height: 150px;
+}
+
+.mail{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.mail p{
+  font-size: 15px;
+}
+
+.grillefooterMenu{
+  display: grid;
+  grid-row: 2 ;
+  grid-template-columns: 4;
+  column-gap: 0px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.grillefooterMenu a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.Pres{
+  grid-column: 1;
+}
+
+.Proj{
+  grid-column: 2;
+}
+
+.Exp{
+  grid-column: 3;
+}
+.Form{
+  grid-column: 4;
+}

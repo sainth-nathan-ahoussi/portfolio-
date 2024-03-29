@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  font-weight: bold;
+ 
+}
+
+.container{
+  width: 100%;
+  height: 10vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1521321989933-6eaf18dfc488?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.navbar{
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  margin-top: 10%;
+  width: 70px;
+  cursor: pointer;
+}
+
+
+.logo img{
+  width: 70px;
+  height: 70px;
+}
+
+
+nav {
+  flex: 1;
+  text-align: right;
+  margin-top: 10%;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+
+label{
+  color: #FFA629;
+}
+
+main{
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top:30%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+}
+form .message2 p{
+  font-size: 12px;
+  color: white;
+}
+
+
+form{
+  background-color: #1E1E1E;
+
+  padding: 30px;
+  margin-top: 50%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+form h1 {
+  color: #FFA629;
+  font-size: 20px;
+}
+
+form .separation{
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+}
+
+form .corps-formulaire{
+  display: grid;
+  grid-template-rows: 5;
+  margin-bottom: 30px;
+}
+
+/* form .corps-formulaire .boite{
+  margin-top: 20px;
+} */
+
+form .corps-formulaire .nom {grid-row: 1; margin-top:10px}
+form .corps-formulaire .email{grid-row: 2; margin-top:10px}
+form .corps-formulaire .tel{grid-row: 3; margin-top:10px}
+form .corps-formulaire .raison{grid-row: 4; margin-top:10px}
+form .corps-formulaire .texte{grid-row: 5; margin-top:10px}
+
+.consentement {
+  display: grid;
+  grid-template-columns: 2;
+}
+
+.consentement input{
+  margin-top: 10px;
+  margin-left: 70%;
+  grid-column: 1;
+  width: 15px;
+  height: 15px;
+}
+
+
+.consentement p{
+  margin-left: 6px;
+  font-weight: normal;
+  grid-column: 2;
+  font-size: 12px;
+  color: white;
+}
+
+
+.pied-formulaire input{
+  border: none;
+  background-color: white;
+  border-radius: -10px;
+  padding: 10px 20px;
+
+}
+
+footer{
+  position: static;
+  margin-top: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: #000000;
+  color: #000000;
+  
+}
+
+
+.footerMenu{
+  margin-left: 20%;
+  margin-right: 20%;
+  display: grid;
+  grid-template-rows: 2;
+}
+.grilleReseau{
+  grid-row: 1 ;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+
+.message{
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 20%;
+}
+
+.message p{
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+.listeLogo{
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+  grid-template-columns: 3;
+}
+
+.github{
+  grid-column: 1;
+}
+
+.twitter{
+  grid-column: 2;
+}
+
+.linkedin{
+  grid-column: 3;
+}
+
+.listeLogo img{
+  width: 60px;
+  height: 60px;
+}
+
+.logo2{
+  grid-column: 2;
+  grid-row: 1;
+  margin-right: 40%;
+ 
+}
+
+.logo2 img{
+  width: 150px;
+  height: 150px;
+}
+
+.mail{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.mail p{
+  font-size: 15px;
+  color: white;
+}
+
+.grillefooterMenu{
+  display: grid;
+  grid-row: 2 ;
+  grid-template-columns: 4;
+  column-gap: 0px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.grillefooterMenu a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.Pres{
+  grid-column: 1;
+}
+
+.Proj{
+  grid-column: 2;
+}
+
+.Exp{
+  grid-column: 3;
+}
+.Form{
+  grid-column: 4;
+}
