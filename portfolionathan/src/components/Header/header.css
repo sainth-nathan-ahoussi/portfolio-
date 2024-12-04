@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://www.pixel4k.com/wp-content/uploads/2021/03/person-gazing-at-stars-4k_1614620353-1536x864.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+  }
+  
+  .navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo{
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  
+  .logo img{
+    width: 70px;
+    height: 70px;
+  }
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+  }
+  
+  .row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+  }
+  
+  .col {
+    flex-basis: 50%;
+  }
+  
+  h1 {
+    color: #a17d60;
+    font-size: 200px;
+    width: fit-content;
+  }
+  
+  h3{
+    color:#fff;
+    font-size: 35px;
+  }
+  
+  p{
+    color:#fff;
+    font-size: 11px;
+    line-height: 15px;
+  }
+  
+  button{
+    width: 100px;
+    color: #a17d60;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: transparent;
+    border: 0;
+    outline: solid #a17d60;
+    margin-top: 30px;
+  }
+
+  .highlight{
+    color: #a17d60;
+  }

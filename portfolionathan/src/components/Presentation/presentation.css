@@ -1,0 +1,64 @@
+
+.presentation{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .presentation p {
+    color:black ;
+  }
+  .moi{
+    grid-column: 2;
+  }
+  
+  .presentation .moi p {
+    font-size: 15px;
+  }
+  
+  .grillePresentation{
+    display: grid;
+    grid-template-columns: 2 ;
+  }
+  
+  .photo{
+    grid-column: 1;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .photo .me img {
+    width: 300px;
+    height: 300px;
+    position: static;
+    margin-left: 50px;
+    margin-right: 10px;
+    border: solid black 20px;
+  }
+  
+  
+  .cv a {
+    outline: solid black;
+    background-color: black;
+    padding: 10px 10px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .presentation .grillePresentation .company{
+    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .presentation .grillePresentation .company p {
+    font-weight: bolder;
+  }
+  
+  .company img{
+    width: 400px;
+    height: 200px;
+    
+  }
+  
+  

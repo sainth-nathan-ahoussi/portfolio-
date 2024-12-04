@@ -1,0 +1,45 @@
+.skillset {
+  background-color: #f8f8f8;
+  padding: 40px;
+  text-align: center;
+}
+
+.skillset h4 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.skillset p {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.column p {
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.divider {
+  width: 1px;
+  background-color: black;
+  height: 100%;
+  margin: 0 20px;
+}

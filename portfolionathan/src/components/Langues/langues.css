@@ -1,0 +1,46 @@
+.languages h4 {
+  color: black;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.languages p{
+  color: black;
+  align-items: center;
+  text-align: center;
+}
+
+.languages{
+  background-color:#f8f8f8;
+}
+
+
+.languages .grilleLanguages {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows:4 ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+  text-align: center;
+}
+
+.languages .grilleLanguages img {
+  width:90px;
+}
+
+.japon{ grid-column: 1; grid-row: 1; }
+.espagne{grid-column: 1; grid-row: 2; margin-top: 12px;}
+.portugal{grid-column: 1; grid-row: 3; margin-top: 12px;} 
+.coteIvoire{grid-column: 1; grid-row: 4; margin-top: 12px;}
+.anglais{grid-column: 2; grid-row: 1;}
+.france{grid-column: 2; grid-row: 2; margin-top: 12px;}
+.coree{grid-column: 2; grid-row: 3;}
+.nigeria{grid-column: 2; grid-row: 4; margin-top: 12px;}
+.creole{grid-column: 3; grid-row: 1;}
+.italie{grid-column: 3; grid-row: 2;}
+.congo{grid-column: 3; grid-row: 3;}
+

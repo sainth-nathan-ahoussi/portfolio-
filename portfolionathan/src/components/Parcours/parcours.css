@@ -1,0 +1,35 @@
+.grilleParcours {
+    display: grid;
+    grid-template-columns: 7;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .parcours .grilleParcours img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .College{
+    grid-column: 1;
+  }
+  .Pix{
+    grid-column: 2;
+  }
+  .Brevet{
+    grid-column: 3;
+  }
+  .LyceeV{
+    grid-column: 4;
+  }
+  .LyceeM{
+    grid-column: 5;
+  }
+  .Bac{
+    grid-column: 6;
+  }
+  .Orsay{
+    grid-column: 7;
+  }
