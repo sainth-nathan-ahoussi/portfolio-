@@ -22,8 +22,8 @@ const Presentation = () => {
                 <div class="moi">
                     <h2>IT technologies and Game  <br /> Development Enthusiast.</h2>
                     <br />
-                    <p>I’m Sainth-Nathan Ahoussi, a second year student in the<br />
-                    IUT of Orsay with 3 year of hands-made knowledge
+                    <p>I’m Sainth-Nathan Ahoussi, a second year student in the
+                    IUT of Orsay with 3 year of hands-made knowledge.
                     <br />
                     <br />
                     My journey into IT development began at the time of
@@ -47,19 +47,17 @@ const Presentation = () => {
                     <br />
                     <br />
                     <br />
-                    So that how i ended up in the IUT of Orsay with the goal of <br />
-                    making my own company in IT especially in Video games<br />
-                    development. My inspirations are the French company <br />
+                    So that how i ended up in the IUT of Orsay with the goal of
+                    making my own company in IT especially in Video games
+                    development. My inspirations are the French company
                     Ankama and Ubisoft.<br />
                     <br />
-                    For a more in-depth understanding of my qualifications,<br />
-                    click on my <a href="https://github.com/sainth-nathan-ahoussi">Github</a> page or get in touch with me at <br />
-                    nathanahoussi502@gmail.com</p>
+                    For a more in-depth understanding of my qualifications,
+                    click on my <a href="https://github.com/sainth-nathan-ahoussi">Github</a> page or get in touch with me at
+                     <strong><i>nathanahoussi502@gmail.com</i></strong></p>
                     <br />
                     <br />
-                    <div class="cv">
-                        <a href="curriculum_vitae_nathan.pdf">Resume</a>
-                    </div>
+                    <div class="cv"><a href="../curriculum_vitae_nathan.pdf">Resume</a></div>
                     <br />
                     <br />
                     <p>(PDF format, 1.7 MB)</p>

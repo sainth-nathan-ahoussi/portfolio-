@@ -4,6 +4,7 @@ import './contact.css';
 const Contact = () => {
     return (
         <div className="contact-container">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <div className="contact-form">
                 <h2>Contact Us</h2>
                 <form>
@@ -25,7 +26,7 @@ const Contact = () => {
                             J'accepte les <a href="#terms">Conditions d'utilisation</a>
                         </label>
                     </div>
-                    <button type="submit">Send</button>
+                    <button type="submit"> <i class="fa fa-envelope"></i>  Send</button>
                 </form>
             </div>
             <div className="contact-info">

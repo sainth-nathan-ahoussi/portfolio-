@@ -1,42 +1,38 @@
+/* Universal box-sizing fix */
+* {
+    box-sizing: border-box;
+}
+
+/* Container styles */
 .contact-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: stretch; /* Ensure both sections stretch to equal height */
     gap: 20px;
     padding: 40px;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Form styles */
 .contact-form {
     flex: 1;
-    min-width: 300px;
+    max-width: 500px;
     padding: 20px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute form items evenly */
 }
 
-.contact-form h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.contact-form .form-group {
-    margin-bottom: 15px;
-}
-
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: #555;
-}
-
+/* Input and textarea fixes */
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -51,6 +47,10 @@
     resize: none;
 }
 
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
 .contact-form .form-group-checkbox {
     display: flex;
     align-items: center;
@@ -62,6 +62,7 @@
     margin-right: 10px;
 }
 
+/* Button style */
 .contact-form button {
     width: 100%;
     padding: 10px;
@@ -78,16 +79,18 @@
     background-color: #0056b3;
 }
 
-
+/* Info styles */
 .contact-info {
-    align-items: center;
-    justify-content: center;
     flex: 1;
-    min-width: 300px;
+    max-width: 500px;
     padding: 20px;
     background: #f5f5f5;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* Align items evenly */
 }
 
 .contact-info h3 {
@@ -96,10 +99,11 @@
     color: #333;
 }
 
-.contact-info p {
+.contact-info p,
+.contact-info ul {
     font-size: 14px;
-    margin-bottom: 10px;
     color: #555;
+    margin-bottom: 10px;
 }
 
 .contact-info ul {
@@ -107,8 +111,15 @@
     padding: 0;
 }
 
-.contact-info ul li {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 5px;
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form,
+    .contact-info {
+        max-width: 100%;
+    }
 }
