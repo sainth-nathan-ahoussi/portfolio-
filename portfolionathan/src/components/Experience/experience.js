@@ -57,7 +57,7 @@ const Experience = () => {
     }, []);
 
     return (
-        <section className="experience-timeline">
+        <section id="experience-section" className="experience-timeline">
             <h2>Expériences Professionnelles</h2>
             <div className="timeline">
                 {experiences.map((exp, index) => (

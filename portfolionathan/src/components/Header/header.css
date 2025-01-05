@@ -87,6 +87,21 @@
     margin-top: 30px;
   }
 
+  button a:link, button a:visited {
+    text-decoration: none;
+    color: #a17d60;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  button a:hover, button a:active {
+    background-color: #a17d60;
+    color: white;
+    width: 100px;
+  }
+
+
   .highlight{
     color: #a17d60;
   }

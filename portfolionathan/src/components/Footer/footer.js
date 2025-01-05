@@ -17,9 +17,9 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="listeLogo">
-                        <div className="github"><a href=""><img src={GithubImage} alt="GitHub" /></a></div>
+                        <div className="github"><a href="https://github.com/sainth-nathan-ahoussi"><img src={GithubImage} alt="GitHub" /></a></div>
                         <div className="twitter"><a href=""><img src={TwitterImage} alt="Twitter" /></a></div>
-                        <div className="linkedin"><a href=""><img src={linkedinImage} alt="LinkedIn" /></a></div>
+                        <div className="linkedin"><a href="https://www.linkedin.com/in/sainth-nathan-ahoussi-526412279/"><img src={linkedinImage} alt="LinkedIn" /></a></div>
                     </div>
                     
                     <div className="logo2"><a href=""><img src={MonLogoImage} alt="Logo" /></a></div>
@@ -27,9 +27,9 @@ const Footer = () => {
                 </div>
 
                 <div className="grillefooterMenu">
-                    <div className="Pres"><a href=""><span className="highlight">Qui-je suis ?</span></a></div>
-                    <div className="Proj"><a href="">Mes Projets</a></div>
-                    <div className="Exp"><a href="">Mes Expériences</a></div>
+                    <div className="Pres"><a href="#presentation-section"><span className="highlight">Who I am ?</span></a></div>
+                    <div className="Proj"><a href="">My Projects</a></div>
+                    <div className="Exp"><a href="#experience-section">My Experiences</a></div>
                 </div>
             </div>
             <p>2024 - Sainth-Nathan Ahoussi’s Developer Portfolio. France © All rights reserved. Private policy.</p>

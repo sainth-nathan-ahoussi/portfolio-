@@ -5,7 +5,7 @@ import CompanyImage from '../../Images/Company.png';
 
 const Presentation = () => {
     return (
-        <div class="presentation">
+        <div class="presentation" id="presentation-section">
             <div class="grillePresentation">
                 <div class="photo">
                     <div class="me">

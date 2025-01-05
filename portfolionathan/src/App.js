@@ -8,6 +8,8 @@ import Langues from './components/Langues/langues';
 import Experience from './components/Experience/experience';
 import Newsletter from './components/Newsletter/newsletter';
 import Hobbies from './components/Hobbies/hobbies';
+import Contact from './components/Contact/Contact';
+import Donation from './components/Donation/Donation';
 import Footer from './components/Footer/footer';  
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
             <br />
             <Newsletter />
             <Hobbies />
+            <Contact />
+            <Donation />
             <Footer />
         </div>
     );
