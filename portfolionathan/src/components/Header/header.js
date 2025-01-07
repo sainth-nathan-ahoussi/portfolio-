@@ -1,19 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './header.css'; 
 import MonLogoImage from '../../Images/LogoCorner.png';
 
 const Header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
         <header className="header">
-            <div class="container">     
+            <div className="container">     
                 <div className="navbar">
                     <div className="logo">   
-                        <img src={MonLogoImage} alt="Logo" />
+                        <Link to="/mainPage"><img src={MonLogoImage} alt="Logo" /></Link>
                     </div>
-                    <nav>
+                    <div className="menu-toggle" onClick={toggleMenu}>
+                        ☰ {/* Icone pour le menu burger */}
+                    </div>
+                    <nav className={menuOpen ? 'active' : ''}>
                         <ul>
-                            <li className="Presentation"><a href="#presentation-section"><span className="highlight">Who I am ?</span></a></li>
+                            <li><a href="#presentation-section"><span className="highlight">Who I am ?</span></a></li>
                             <li><Link to="/projects">My Projects</Link></li>
                             <li><a href="#experience-section">My Experiences</a></li>
                         </ul>    

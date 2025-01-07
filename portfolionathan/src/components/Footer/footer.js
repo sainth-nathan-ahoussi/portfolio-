@@ -4,6 +4,7 @@ import MonLogoImage from '../../Images/LogoCorner.png';
 import GithubImage from '../../Images/github.png';
 import TwitterImage from '../../Images/twitter.png';
 import linkedinImage from '../../Images/linkedin.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -22,13 +23,13 @@ const Footer = () => {
                         <div className="linkedin"><a href="https://www.linkedin.com/in/sainth-nathan-ahoussi-526412279/"><img src={linkedinImage} alt="LinkedIn" /></a></div>
                     </div>
                     
-                    <div className="logo2"><a href=""><img src={MonLogoImage} alt="Logo" /></a></div>
+                    <div className="logo2"><Link to="/main"><img src={MonLogoImage} alt="Logo" /></Link></div>
                     <div className="mail"><p>nathanahoussi502@gmail.com</p></div>
                 </div>
 
                 <div className="grillefooterMenu">
                     <div className="Pres"><a href="#presentation-section"><span className="highlight">Who I am ?</span></a></div>
-                    <div className="Proj"><a href="">My Projects</a></div>
+                    <div className="Proj"><Link to="/projects">My Projects</Link></div>
                     <div className="Exp"><a href="#experience-section">My Experiences</a></div>
                 </div>
             </div>

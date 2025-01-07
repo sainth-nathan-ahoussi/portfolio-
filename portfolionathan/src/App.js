@@ -20,7 +20,7 @@ function App() {
             <Header />
             <Routes>
                 {/* Main Home Route */}
-                <Route path="/" element={
+                <Route path="/mainPage" element={
                     <>
                         <Parcours />
                         <Presentation />
@@ -40,6 +40,7 @@ function App() {
                     <>
                         <Projects />
                         <Donation />
+                        <Footer />
                     </>
                 } />
             </Routes>

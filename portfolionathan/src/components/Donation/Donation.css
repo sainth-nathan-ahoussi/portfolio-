@@ -1,0 +1,147 @@
+.donation-container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .donation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .donation-left {
+    background-color: black;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .donation-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .donation-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .donation-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .donation-heart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .heart-icon {
+    color: #ff5252;
+  }
+  
+  .donation-right {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  .amount-section {
+    margin-top: 20px; /* Ensure spacing between Frequency and Amount */
+  }
+  
+  .frequency-section {
+    margin-bottom: 20px; /* Add spacing below this section */
+  }
+    .frequency-buttons, .amount-buttons {
+    display: flex;
+    gap: 10px;
+    }
+
+    .frequency-button, .amount-button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+    }
+
+    .frequency-button.active, .amount-button.active {
+    background: #e3f2fd;
+    color: black;
+    }
+    
+  .custom-amount-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Payment Buttons */
+  .payment-buttons {
+    margin-top: 20px;
+  }
+  
+  .paypal-button, .card-button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .paypal-button {
+    background: #00457C;
+    color: white;
+  }
+  
+  .paypal-button:hover {
+    background: #005ea6;
+  }
+  
+  .card-button {
+    background: black;
+    color: white;
+  }
+  
+  .card-button:hover {
+    background: #555;
+  }
+  
