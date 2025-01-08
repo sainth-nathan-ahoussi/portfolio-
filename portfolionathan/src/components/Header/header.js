@@ -22,9 +22,9 @@ const Header = () => {
                     </div>
                     <nav className={menuOpen ? 'active' : ''}>
                         <ul>
-                            <li><a href="#presentation-section"><span className="highlight">Who I am ?</span></a></li>
+                            <li><a href="/mainPage#presentation-section"><span className="highlight">Who I am ?</span></a></li>
                             <li><Link to="/projects">My Projects</Link></li>
-                            <li><a href="#experience-section">My Experiences</a></li>
+                            <li><a href="/mainPage#experience-section">My Experiences</a></li>
                         </ul>    
                     </nav>   
                 </div>
