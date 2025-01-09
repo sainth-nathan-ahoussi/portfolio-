@@ -65,10 +65,10 @@ Portfolio/
 ## Screenshots
 
 ### Homepage
-![Homepage Screenshot](./homepage.png)
+![Homepage Screenshot](../homepage.png)
 
 ### Projects Section
-![Projects Section Screenshot](./projectspage.png)
+![Projects Section Screenshot](../projectspage.png)
 
 ---
 
