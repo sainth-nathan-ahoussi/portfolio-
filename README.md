@@ -65,10 +65,10 @@ Portfolio/
 ## Screenshots
 
 ### Homepage
-![Homepage Screenshot](images/homepage.png)
+![Homepage Screenshot](Images/homepage.png)
 
 ### Projects Section
-![Projects Section Screenshot](images/projectspage.png)
+![Projects Section Screenshot](Images/projectspage.png)
 
 ---
 
@@ -85,8 +85,8 @@ Portfolio/
 If you'd like to collaborate or have any questions, feel free to reach out:
 
 - Email: [nathanahoussi502@gmail.com](mailto:nathanahoussi502@gmail.com)
-- LinkedIn: [My Profile](#https://www.linkedin.com/in/sainth-nathan-ahoussi-526412279/)
-- Portfolio: [My Website](#https://sainth-nathan.fr/)
+- LinkedIn: [My Profile](https://www.linkedin.com/in/sainth-nathan-ahoussi-526412279/)
+- Portfolio: [My Website](https://sainth-nathan.fr/)
 
 ---
 
