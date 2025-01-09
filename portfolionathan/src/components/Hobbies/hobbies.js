@@ -17,8 +17,7 @@ const Hobbies = () => {
     return (
         <div class="hobbies">
         <h4>Hobbies</h4>
-        <p>Things that matter to me outside of school, these are interests that I pursue for some, 
-        <br />and for others, they are actual activities that I engage in.
+        <p>Things that matter to me outside of school, these are interests that I pursue for some, and for others, they are actual activities that I engage in.
         </p>
         <div class="grilleHobbies">
                 <div class="Basket"><img src={BasketImage} /></div>

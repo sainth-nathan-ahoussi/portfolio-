@@ -5,7 +5,7 @@ const Skillset = () => {
     return (
         <section className="skillset">
             <h4>Skillset</h4>
-            <p>Les compétences suivantes reflètent l'expertise et les savoir-faire développés au fil de mon parcours professionnel et académique, couvrant divers domaines essentiels à la réussite de mes missions.</p>
+            <p>The following skills reflect the expertise and know-how developed throughout my professional and academic journey, covering various areas essential to the success of my missions.</p>
             <div className="skills-container">
                 <div className="column">
                     <p>Persévérance</p>
