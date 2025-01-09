@@ -1,166 +1,56 @@
-
 .toolbox {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .toolbox p{
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .grilleToolbox{
-    
-    display: grid;
-    grid-template-columns:10 ;
-    grid-template-rows: 4;
-  }
-  
-  
-  .grilleToolbox img{
-    width: 60px;
-    height: 60px;
-  }
-  
-  .notion{
-    grid-column: 1;
-    grid-row: 1;
-  }
-  .figma{
-    grid-column: 2;
-    grid-row: 1;
-  }
-  .github1{
-    grid-column: 3;
-    grid-row: 1;
-  }
-  .canva{
-    grid-column: 4;
-    grid-row: 1;
-  }
-  .visualStudio{
-    grid-column: 5;
-    grid-row: 1;
-  }
-  .Blender{
-    grid-column: 6;
-    grid-row: 1;
-  }
-  .godot{
-    grid-column: 7;
-    grid-row: 1;
-  }
-  .looping{
-    grid-column:8;
-    grid-row: 1;
-  }
-  .filezila{
-    grid-column: 9;
-    grid-row: 1;
-  }
-  .v2sCodium{
-    grid-column: 10;
-    grid-row: 1;
-  }
-  .notepad{
-    grid-column: 1;
-    grid-row: 2;
-  }
-  .unity{
-    grid-column: 2;
-    grid-row: 2;
-  }
-  .Unreal{
-    grid-column: 3;
-    grid-row: 2;
-  }
-  .sweetHome{
-    grid-column: 4;
-    grid-row: 2;
-  }
-  .eclipse{
-    grid-column: 5;
-    grid-row: 2;
-  }
-  .inkscape{
-    grid-column: 6;
-    grid-row: 2;
-  }
-  .krita{
-    grid-column: 7;
-    grid-row: 2;
-  }
-  .trello{
-    grid-column: 8;
-    grid-row: 2;
-  }
-  .oracle{
-    grid-column: 9;
-    grid-row: 2;
-  }
-  .visualParadigm{
-    grid-column: 10;
-    grid-row: 2;
-  }
-  .Guacamole{
-    grid-column: 1;
-    grid-row: 3;
-  }
-  .skype{
-    grid-column: 2;
-    grid-row: 3;
-  }
-  .discord{
-    grid-column: 3;
-    grid-row: 3;
-  }
-  .inshot{
-    grid-column: 4;
-    grid-row: 3;
-  }
-  .capcut{
-    grid-column: 5;
-    grid-row: 3;
-  }
-  .Sublimetext{
-    grid-column: 6;
-    grid-row: 3;
-  }
-  .bootstrap{
-    grid-column: 7;
-    grid-row: 3;
-  }
-  .gitlab{
-    grid-column: 8;
-    grid-row: 3;
-  }
-  .pyc2harm{
-    grid-column: 9;
-    grid-row: 3;
-  }
-  .nginx{
-    grid-column: 10;
-    grid-row: 3;
-  }
-  .docker{
-    grid-column: 1;
-    grid-row: 4;
-  }
-  .codepen{
-    grid-column: 2;
-    grid-row: 4;
-  }
-
-  
-.toolbox h4 {
- color: black;
- align-items: center;
- text-align: center;
- font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.toolbox p{
- color: black;
- align-items: center;
- text-align: center;
+.toolbox h4 {
+  color: black;
+  font-size: 30px;
+}
+
+.toolbox p {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.grilleToolbox {
+  display: grid;
+  gap: 20px; /* Adjust gap for better spacing */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive columns */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.grilleToolbox img {
+  width: 80px; /* Larger icons for better visibility on desktop */
+  height: 80px;
+  object-fit: contain;
+  transition: transform 0.2s ease-in-out;
+}
+
+.grilleToolbox img:hover {
+  transform: scale(1.1); /* Slight hover enlargement */
+}
+
+@media (max-width: 768px) {
+  .grilleToolbox {
+    grid-template-columns: repeat(3, 1fr); /* Adjust to 3 columns on small screens */
+    gap: 10px;
+  }
+
+  .grilleToolbox img {
+    width: 50px; /* Smaller icons for mobile */
+    height: 50px;
+  }
+
+  .toolbox h4 {
+    font-size: 24px; /* Slightly smaller heading on mobile */
+  }
+
+  .toolbox p {
+    font-size: 14px; /* Adjust text size */
+  }
 }

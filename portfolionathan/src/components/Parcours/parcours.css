@@ -3,8 +3,8 @@
     grid-template-columns: 7;
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    gap: 200px;
+    justify-content: center;
   }
   
   .parcours .grilleParcours img{
@@ -32,4 +32,20 @@
   }
   .Orsay{
     grid-column: 7;
+  }
+
+  @media (max-width: 768px) {
+    .grilleParcours {
+      display: grid;
+      grid-template-columns: 7;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      gap: 15px;
+      justify-content: center;
+    }
+    
+    .parcours .grilleParcours img{
+      width: 40px;
+      height: 40px;
+    }
   }

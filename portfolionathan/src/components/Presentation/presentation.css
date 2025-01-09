@@ -61,4 +61,30 @@
     
   }
   
+  @media (max-width: 768px) {
+    .photo {
+      grid-row: 1;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      display: flex; /* Add this */
+      flex-direction: column; /* Add this */
+    }
+    
+    .photo .me img {
+      width: 300px;
+      height: 300px;
+      justify-content: center;
+      align-self: center; /* Add this */
+      border: solid black 20px;
+      margin: 0 auto; /* Center the image */
+    }
   
+    .company img {
+      width: 200px;
+      height: 100px;
+    }
+    .company p{
+      margin-bottom: 10px;
+    }
+  }

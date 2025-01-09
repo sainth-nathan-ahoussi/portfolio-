@@ -36,7 +36,6 @@
   height: 60px;
 }
 
-
 .Basket{grid-column: 1; grid-row: 1;}
 .Boxe{grid-column: 2; grid-row: 1;}
 .Foot{grid-column: 3; grid-row: 1;}
@@ -49,3 +48,19 @@
 .Voyager{grid-column: 4; grid-row: 2;}
 .Jeu{grid-column: 5; grid-row: 2;}
 .Electronique{grid-column: 6; grid-row: 2;}
+
+
+@media screen and (max-width: 768px) {
+  .grilleHobbies {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .grilleHobbies img {
+    width: 50px; /* Ajuste la taille si nécessaire */
+    height: 50px;
+  }
+}

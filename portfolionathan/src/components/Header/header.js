@@ -18,7 +18,7 @@ const Header = () => {
                         <Link to="/mainPage"><img src={MonLogoImage} alt="Logo" /></Link>
                     </div>
                     <div className="menu-toggle" onClick={toggleMenu}>
-                        ☰ {/* Icone pour le menu burger */}
+                        ☰
                     </div>
                     <nav className={menuOpen ? 'active' : ''}>
                         <ul>

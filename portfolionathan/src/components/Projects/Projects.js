@@ -27,9 +27,16 @@ import JavaImage from '../../Images/Projets/java.png';
 import NoteTakerImage from '../../Images/Projets/notetaking.jpg';
 import CSharpImage from '../../Images/Projets/CSharpLogo.png';
 import FindYourWayImage from '../../Images/Projets/oneWay.jpg';
-
-
-
+import AgeCalculatorImage from '../../Images/Projets/Age-Calculator.png';
+import ChangeImage from '../../Images/Projets/Change.jpg';
+import CulturaImage from '../../Images/Projets/knowledge.jpg';
+import MagicCardsImage from '../../Images/Projets/magicCards.avif';
+import QuoteGeneratorImage from '../../Images/Projets/quotegenerator.jpg';
+import TokyoRevengersImage from '../../Images/Projets/tokyorevengers.jpg';
+import BridgeImage from '../../Images/Projets/BridgeBlog.jpg';
+import EntrepriseImage from '../../Images/Projets/entreprise.jpeg';
+import MarioOdisseyImage from '../../Images/Projets/marioOdissey.jpg';
+import PrivateTeacherImage from '../../Images/Projets/privateTeacher.jpeg';
 
 const projectData = [
     {
@@ -127,7 +134,7 @@ const projectData = [
         title: "Stars : The Beginning",
         description: "A game in coop with Stars",
         stacks: [""],
-        image: "path-to-ayeSoul-image.jpg",
+        image: MarioOdisseyImage,
         githubLink: "",
     },
     {
@@ -167,16 +174,16 @@ const projectData = [
     },
     {
         title: "Private Teacher",
-        description: "A quote generator to use whan you want to style your Instagram Post",
+        description: "An app to connect teacher to student ",
         stacks: ["Java"],
-        image: "path-to-ayeSoul-image.jpg",
+        image: PrivateTeacherImage,
         githubLink: "",
     },
     {
         title: "Quote Generator",
         description: "A quote generator to use whan you want to style your Instagram Post",
         stacks: ["Java"],
-        image: "path-to-ayeSoul-image.jpg",
+        image: QuoteGeneratorImage,
         githubLink: "",
     },
     {
@@ -197,28 +204,28 @@ const projectData = [
         title: "Artificial recognition Bridge Card",
         description: "Real Time Bridge card detection",
         stacks: ["Python", "YOLO", "Google Collab"],
-        image: "path-to-ayeSoul-image.jpg",
+        image: BridgeImage,
         githubLink: "",
     },
     {
         title: "Age Calculator",
         description: "Age Calculator so people can know there age",
         stacks: ["Python", "Tkinter"],
-        image: "path-to-ayeSoul-image.jpg",
+        image: AgeCalculatorImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/AgeCalculator",
     },
     {
         title: "Cultura",
         description: "A general cultur quizz to play with your family or friend like KCultur",
         stacks: ["C++"],
-        image: "path-to-ayeSoul-image.jpg",
+        image: CulturaImage,
         githubLink: "",
     },
     {
         title: "Element Modificator",
         description: "An app to directly remove all occurences of a letter, character or all from a file.",
         stacks: ["Python", "Tkinter"],
-        image: "path-to-ayeSoul-image.jpg",
+        image: ChangeImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/ModificateurTexte",
     },
     {
@@ -295,14 +302,14 @@ const projectData = [
         title: "Tokyo Revengers",
         description: "We had to make a data base for a serie or a movie we liked and we choosed Tokyo Revengers ",
         stacks: ["SQL"],
-        image: "path-to-ayeDot-image.jpg",
+        image: TokyoRevengersImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_BD_Anime",
     },
     {
         title: "Game cards",
         description: "We had to make a magic cards game in the console in C++ ",
         stacks: ["C++","Makefile"],
-        image: "path-to-ayeDot-image.jpg",
+        image: MagicCardsImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_JeuCarte",
     },
     {
@@ -316,7 +323,7 @@ const projectData = [
         title: "Entreprise Database",
         description: "We had to make a data base for an company of our choice ",
         stacks: ["SQL"],
-        image: "path-to-ayeDot-image.jpg",
+        image: EntrepriseImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_BD_Entreprise",
     },
     {

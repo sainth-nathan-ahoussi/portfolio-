@@ -53,11 +53,11 @@ const Presentation = () => {
                     Ankama and Ubisoft.<br />
                     <br />
                     For a more in-depth understanding of my qualifications,
-                    click on my <a href="https://github.com/sainth-nathan-ahoussi">Github</a> page or get in touch with me at
-                     <strong><i>nathanahoussi502@gmail.com</i></strong></p>
+                    click on my <a href="https://github.com/sainth-nathan-ahoussi">Github</a> page or get in touch with me at  
+                    <strong><i>nathanahoussi502@gmail.com</i></strong></p>
                     <br />
                     <br />
-                    <div class="cv"><a href="../curriculum_vitae_nathan.pdf">Resume</a></div>
+                    <div class="cv"><a href="./curriculum_vitae_nathan.pdf">Resume</a></div>
                     <br />
                     <br />
                     <p>(PDF format, 1.7 MB)</p>
