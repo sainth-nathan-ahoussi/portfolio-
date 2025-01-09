@@ -67,17 +67,17 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      display: flex; /* Add this */
-      flex-direction: column; /* Add this */
+      display: flex; 
+      flex-direction: column;
     }
     
     .photo .me img {
       width: 300px;
       height: 300px;
       justify-content: center;
-      align-self: center; /* Add this */
+      align-self: center;
       border: solid black 20px;
-      margin: 0 auto; /* Center the image */
+      margin: 0 auto; 
     }
   
     .company img {

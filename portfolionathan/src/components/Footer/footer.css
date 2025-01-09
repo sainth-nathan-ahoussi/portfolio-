@@ -12,7 +12,7 @@ footer {
   display: grid;
   grid-template-rows: 2;
   grid-template-columns: 2;
-  gap: 10px; /* Réduire l'espace entre les colonnes */
+  gap: 10px;
 }
 
 .grilleReseau {
@@ -20,24 +20,24 @@ footer {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  gap: 5px; /* Réduire l'espace entre les sections */
+  gap: 5px; 
 }
 
 .message p {
-  font-size: 25px; /* Augmenter la taille du texte */
-  font-weight: 400; /* Rendre le texte légèrement plus épais */
-  margin-top: 5px; /* Réduire l'espace au-dessus */
+  font-size: 25px;
+  font-weight: 400; 
+  margin-top: 5px; 
 }
 
 .listeLogo {
   grid-column: 1;
   display: flex;
   justify-content: center;
-  gap: 15px; /* Espacement légèrement réduit entre les icônes */
+  gap: 15px; 
 }
 
 .listeLogo img {
-  width: 90px; /* Agrandir les icônes */
+  width: 90px; 
   height: 90px;
   transition: transform 0.3s ease-in-out;
 }
@@ -53,22 +53,22 @@ footer {
 }
 
 .mail p {
-  font-size: 19px; /* Augmenter la taille de l'email */
-  margin-top: 5px; /* Réduire l'espace au-dessus */
+  font-size: 19px; 
+  margin-top: 5px; 
 }
 
 .grillefooterMenu {
   grid-row: 2;
   display: flex;
   justify-content: space-between;
-  padding: 5px 20px; /* Réduire le padding pour rapprocher les colonnes */
+  padding: 5px 20px; 
 }
 
 .grillefooterMenu a {
   list-style: none;
   text-decoration: none;
   color: #c5a880;
-  font-size: 18px; /* Agrandir la taille des liens */
+  font-size: 18px; 
   transition: color 0.3s ease-in-out;
 }
 
@@ -78,7 +78,7 @@ footer {
 
 footer p {
   margin-top: 10px;
-  font-size: 16px; /* Agrandir le texte du copyright */
+  font-size: 16px;
   color: white;
 }
   @media (max-width: 768px) {

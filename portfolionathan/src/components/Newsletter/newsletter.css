@@ -1,16 +1,16 @@
 .newsletter {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-    max-width: 100%; /* Control width to prevent too much stretching */
+    grid-template-columns: 1fr 1fr; 
+    max-width: 100%;
     margin: 0 auto;
     border-radius: 8px;
     overflow: hidden;
-    background-color: #000; /* Background color for the whole section */
+    background-color: #000;
     color: #fff;
 }
 
 .newsletter-image {
-    background-image: url('https://f.hellowork.com/blogdumoderateur/2023/09/AI-outils-code-developpeurs.jpg'); /* Replace with your image path */
+    background-image: url('https://f.hellowork.com/blogdumoderateur/2023/09/AI-outils-code-developpeurs.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;

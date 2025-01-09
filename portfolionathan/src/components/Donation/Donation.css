@@ -38,8 +38,9 @@
   }
   
   .donation-subtitle {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   
   .donation-heart {
@@ -72,11 +73,11 @@
   }
 
   .amount-section {
-    margin-top: 20px; /* Ensure spacing between Frequency and Amount */
+    margin-top: 20px;
   }
   
   .frequency-section {
-    margin-bottom: 20px; /* Add spacing below this section */
+    margin-bottom: 20px;
   }
     .frequency-buttons, .amount-buttons {
     display: flex;
@@ -108,7 +109,6 @@
     margin-top: 10px;
   }
   
-  /* Payment Buttons */
   .payment-buttons {
     margin-top: 20px;
   }
@@ -145,3 +145,32 @@
     background: #555;
   }
   
+  @media (max-width: 768px) {
+    .donation-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .donation-left, .donation-right {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .donation-title, .form-title {
+        font-size: 20px;
+    }
+
+    .custom-amount-input, .frequency-button, .amount-button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .paypal-button, .card-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .frequency-buttons, .amount-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

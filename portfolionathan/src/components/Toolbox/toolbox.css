@@ -17,40 +17,40 @@
 
 .grilleToolbox {
   display: grid;
-  gap: 20px; /* Adjust gap for better spacing */
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive columns */
+  gap: 20px;  
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
 
 .grilleToolbox img {
-  width: 80px; /* Larger icons for better visibility on desktop */
+  width: 80px; 
   height: 80px;
   object-fit: contain;
   transition: transform 0.2s ease-in-out;
 }
 
 .grilleToolbox img:hover {
-  transform: scale(1.1); /* Slight hover enlargement */
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
   .grilleToolbox {
-    grid-template-columns: repeat(3, 1fr); /* Adjust to 3 columns on small screens */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 10px;
   }
 
   .grilleToolbox img {
-    width: 50px; /* Smaller icons for mobile */
+    width: 50px; 
     height: 50px;
   }
 
   .toolbox h4 {
-    font-size: 24px; /* Slightly smaller heading on mobile */
+    font-size: 24px;
   }
 
   .toolbox p {
-    font-size: 14px; /* Adjust text size */
+    font-size: 14px;
   }
 }

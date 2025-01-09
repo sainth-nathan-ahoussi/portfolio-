@@ -44,3 +44,21 @@
 .italie{grid-column: 3; grid-row: 2;}
 .congo{grid-column: 3; grid-row: 3;}
 
+@media screen and (max-width: 768px) {
+  .languages .grilleLanguages {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  
+  .languages .grilleLanguages img {
+    width: 90px;
+    margin: 0 auto;
+  }
+  
+}

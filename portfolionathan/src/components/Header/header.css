@@ -19,7 +19,7 @@
   .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Logo à gauche, menu à droite */
+    justify-content: space-between;
     height: 60px;
     padding: 0 20px;
 }
@@ -115,10 +115,10 @@
     display: none; 
   }
 
-/* Ajustements pour les écrans larges */
+
 @media (min-width: 1024px) {
   h1 {
-    font-size: 10vw; /* Ajuste dynamiquement en fonction de la largeur de l'écran */
+    font-size: 10vw; 
     text-align: left;
   }
   nav ul li a {
@@ -132,7 +132,6 @@
   }
 }
 
-/* Ajustements pour les petits écrans (mobiles) */
 @media (max-width: 768px) {
   .logo img{
     width: 40px;
@@ -141,7 +140,7 @@
   }
 
   .navbar {
-    justify-content: space-between; /* Logo à gauche, menu à droite */
+    justify-content: space-between; 
     position: relative;
   }
 
@@ -151,15 +150,15 @@
     font-size: 24px;
     color: white;
     position: absolute;
-    top: 15px; /* Aligne verticalement avec le logo */
-    right: 15px; /* Place le bouton burger à droite */
+    top: 15px;
+    right: 15px; 
   }
 
   nav ul {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px; /* Ajuste la position sous la navbar */
+    top: 60px;
     right: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
@@ -177,8 +176,8 @@
   }
 
   h1 {
-    font-size: 80px; /* Réduit davantage sur mobile */
-    overflow: hidden; /* Empêche le débordement */
+    font-size: 80px;
+    overflow: hidden; 
     text-align: center;
   }
 
