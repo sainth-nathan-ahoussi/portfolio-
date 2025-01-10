@@ -1,0 +1,30 @@
+.marquee-container {
+  background-color: red;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+  display: flex; 
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  height: 50px;
+}
+
+.marquee-text {
+  display: inline-block;
+  animation: scroll-left 10s linear infinite;
+  position: absolute;
+  white-space: nowrap;
+}
+
+@keyframes scroll-left {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}

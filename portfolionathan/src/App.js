@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Marquee from './components/Marquee/Marquee';
 import Header from './components/Header/header';
 import Parcours from './components/Parcours/parcours';
 import Presentation from './components/Presentation/presentation';
@@ -17,6 +18,7 @@ import Projects from './components/Projects/Projects';
 function App() {
     return (
         <Router>
+            <Marquee />
             <Header />
             <Routes>
                 {/* Main Home Route */}
