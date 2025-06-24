@@ -99,11 +99,14 @@
     display: inline-block;
   }
 
-  button a:hover, button a:active {
-    background-color: #a17d60;
-    color: white;
-    width: 100px;
-  }
+button:hover {
+  background-color: #a17d60;
+}
+
+button:hover a {
+  color: white;
+}
+
 
 
   .highlight{

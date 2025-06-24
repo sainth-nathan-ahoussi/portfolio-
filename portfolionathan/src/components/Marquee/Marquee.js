@@ -5,7 +5,7 @@ const Marquee = () => {
   return (
     <div className="marquee-container">
       <div className="marquee-text">
-        Recherche urgente d'un stage du 21/01/2024 au 12/05/2025 avec gratification minimum de 4,35 Euro / Heure
+        Recherche urgente d'une alternance en cybersécurité à Angers ou Montpellier pour 2 ans !!
       </div>
     </div>
   );

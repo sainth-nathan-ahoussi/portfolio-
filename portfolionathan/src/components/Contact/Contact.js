@@ -106,9 +106,10 @@ const Contact = () => {
             <Toaster position="top-right" />
             <div className="contact-form">
                 <h2>Contact Me</h2>
+                <br />
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="name">Your Name</label>
+                        <label htmlFor="name">Your Name: </label>
                         <input
                             type="text"
                             id="name"
@@ -120,7 +121,7 @@ const Contact = () => {
                         />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">Email :</label>
                         <input
                             type="email"
                             id="email"
@@ -131,7 +132,7 @@ const Contact = () => {
                         />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message">Message :</label>
                         <textarea
                             id="message"
                             value={formData.message}
@@ -142,7 +143,7 @@ const Contact = () => {
                             required
                         ></textarea>
                     </div>
-                    <div className="form-group-checkbox">
+                   <div className="form-group-checkbox">
                         <input
                             type="checkbox"
                             id="terms"
@@ -154,6 +155,7 @@ const Contact = () => {
                             I accept the <a href="#terms">Terms of Use</a>
                         </label>
                     </div>
+
                     <button type="submit" disabled={isSubmitting}>
                         {isSubmitting ? 'Sending...' : 'Send'}
                     </button>

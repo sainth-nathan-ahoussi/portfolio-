@@ -37,6 +37,9 @@ import BridgeImage from '../../Images/Projets/BridgeBlog.jpg';
 import EntrepriseImage from '../../Images/Projets/entreprise.jpeg';
 import MarioOdisseyImage from '../../Images/Projets/marioOdissey.jpg';
 import PrivateTeacherImage from '../../Images/Projets/privateTeacher.jpeg';
+import MathsmonImage from '../../Images/Projets/mathsmon.png';
+import DevWrappedImage from '../../Images/Projets/0_Spotify-Wrapped.webp';
+
 
 const projectData = [
     {
@@ -45,6 +48,7 @@ const projectData = [
         stacks: ["React","CSS","NodeJS","Javascript"],
         image: ChurchImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Web_Semantique",
+        status: "Finished",
     },
     {
         title: "PVP Chess",
@@ -52,6 +56,7 @@ const projectData = [
         stacks: [""],
         image: ChessSetImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Beyblade Spinning top",
@@ -59,6 +64,7 @@ const projectData = [
         stacks: [""],
         image: BeybladeImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Maze Runner",
@@ -66,6 +72,7 @@ const projectData = [
         stacks: ["Unreal Ungine","C#"],
         image: MazeRunnerImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "WattPad Bis",
@@ -73,6 +80,7 @@ const projectData = [
         stacks: [""],
         image: WattpadImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "AirKnight",
@@ -80,6 +88,7 @@ const projectData = [
         stacks: ["Unreal Ungine","C#"],
         image: AirKnightImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Stocking Cards",
@@ -87,6 +96,7 @@ const projectData = [
         stacks: ["Symphony"],
         image: WalletImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Find Your Way",
@@ -94,6 +104,7 @@ const projectData = [
         stacks: ["React","NodeJS","CSS","HTML"],
         image: FindYourWayImage,
         githubLink: "",
+        status: "In Progress",
     }, 
     {
         title: "Wedding Hall ",
@@ -101,6 +112,7 @@ const projectData = [
         stacks: ["Symphony"],
         image: WeddingHallImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Dwash",
@@ -108,6 +120,7 @@ const projectData = [
         stacks: ["React","NodeJS","CSS","HTML"],
         image: DwashImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Doctor Who SONIC SCREWDRIVER",
@@ -115,6 +128,7 @@ const projectData = [
         stacks: [""],
         image: DoctorImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Projet Real Steel",
@@ -122,13 +136,15 @@ const projectData = [
         stacks: [""],
         image: RealSteelImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Dev Wrapped",
         description: "A VsCode extension that give your a recap each year or month of your progration in coding",
         stacks: ["Typescript","Javascript"],
-        image: "path-to-ayeSoul-image.jpg",
-        githubLink: "",
+        image: DevWrappedImage,
+        githubLink: "https://github.com/sainth-nathan-ahoussi/Dev-Wrapped",
+        status: "In Progress",
     },
     {
         title: "Stars : The Beginning",
@@ -136,6 +152,7 @@ const projectData = [
         stacks: [""],
         image: MarioOdisseyImage,
         githubLink: "",
+        status: "In Progress",
     },
     {
         title: "Labyrinth",
@@ -143,6 +160,7 @@ const projectData = [
         stacks: ["Python"],
         image: LabyrinthImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Calculator",
@@ -150,6 +168,7 @@ const projectData = [
         stacks: ["Java"],
         image: CalculatriceImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Password Keeper",
@@ -157,6 +176,7 @@ const projectData = [
         stacks: ["javascript"],
         image: "path-to-ayeSoul-image.jpg",
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Note Taking",
@@ -164,6 +184,7 @@ const projectData = [
         stacks: [""],
         image: NoteTakerImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Number Guesser",
@@ -171,6 +192,7 @@ const projectData = [
         stacks: ["Python"],
         image: NumberGuesserImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/NumberGuesser",
+        status: "Finished",
     },
     {
         title: "Private Teacher",
@@ -178,6 +200,7 @@ const projectData = [
         stacks: ["Java"],
         image: PrivateTeacherImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Quote Generator",
@@ -185,6 +208,7 @@ const projectData = [
         stacks: ["Java"],
         image: QuoteGeneratorImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Snake",
@@ -192,6 +216,7 @@ const projectData = [
         stacks: ["C++"],
         image: SnakeImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Following Payment",
@@ -199,13 +224,15 @@ const projectData = [
         stacks: [""],
         image: "",
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Artificial recognition Bridge Card",
         description: "Real Time Bridge card detection",
         stacks: ["Python", "YOLO", "Google Collab"],
         image: BridgeImage,
-        githubLink: "",
+        githubLink: "https://github.com/sainth-nathan-ahoussi/Bridge_IA",
+        status: "Finished",
     },
     {
         title: "Age Calculator",
@@ -213,6 +240,7 @@ const projectData = [
         stacks: ["Python", "Tkinter"],
         image: AgeCalculatorImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/AgeCalculator",
+        status: "Finished",
     },
     {
         title: "Cultura",
@@ -220,6 +248,7 @@ const projectData = [
         stacks: ["C++"],
         image: CulturaImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Element Modificator",
@@ -227,6 +256,7 @@ const projectData = [
         stacks: ["Python", "Tkinter"],
         image: ChangeImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/ModificateurTexte",
+        status: "Finished",
     },
     {
         title: "Ultron",
@@ -234,6 +264,7 @@ const projectData = [
         stacks: ["Python", "YOLO"],
         image: UltronImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Artificial recognition Sign Language",
@@ -241,13 +272,15 @@ const projectData = [
         stacks: ["Python", "YOLO", "Google Collab"],
         image: SignLanguageImage,
         githubLink: "",
+        status: "In Progress",
     },
     {
         title: "Mathsmon",
         description: "Jeu pokemon yant pour but d'apprendre les mathématiques à des utilisateurs allant de primaire au lycée",
         stacks: ["Unreal Ungine", "C#", "ShaderLab","HTML","HLSL"],
-        image: "path-to-ayeSoul-image.jpg",
+        image: MathsmonImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Mathsmon",
+        status: "In Progress",
     },
     {
         title: "Tic Tac Toe",
@@ -255,6 +288,7 @@ const projectData = [
         stacks: ["Python"],
         image: TicTacToeImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "WeatherApp",
@@ -262,6 +296,7 @@ const projectData = [
         stacks: ["Javascript"],
         image: WeatherImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Trello Lite",
@@ -269,6 +304,7 @@ const projectData = [
         stacks: ["Java"],
         image: TrelloLogoImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_Trello_Lite",
+        status: "Finished",
     },
     {
         title: "To Do List",
@@ -276,13 +312,15 @@ const projectData = [
         stacks: [""],
         image: TodolistImage,
         githubLink: "",
+        status: "On Hold",
     },
     {
         title: "Mario",
-        description: "Simplifying how you start your SaaS journey with the best stack for building profitable web apps.",
+        description: "Recreate some part Mario and implements something new",
         stacks: ["C", "C++", "Shell","CMake","M4"],
         image: MarioImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_Mario",
+        status: "Finished",
     },
     {
         title: "Projets C#",
@@ -290,6 +328,7 @@ const projectData = [
         stacks: ["C#"],
         image: CSharpImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_C-",
+        status: "Finished",
     },
     {
         title: "Pizzeria",
@@ -297,6 +336,7 @@ const projectData = [
         stacks: ["Java","PHP","HTML","CSS","UML"],
         image: PizzeriaImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_Pizzeria/tree/main",
+        status: "Finished",
     },
     {
         title: "Tokyo Revengers",
@@ -304,6 +344,7 @@ const projectData = [
         stacks: ["SQL"],
         image: TokyoRevengersImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_BD_Anime",
+        status: "Finished",
     },
     {
         title: "Game cards",
@@ -311,6 +352,7 @@ const projectData = [
         stacks: ["C++","Makefile"],
         image: MagicCardsImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_JeuCarte",
+        status: "Finished",
     },
     {
         title: "Projects Java",
@@ -318,6 +360,7 @@ const projectData = [
         stacks: ["Java"],
         image: JavaImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_Java",
+        status: "Finished",
     },
     {
         title: "Entreprise Database",
@@ -325,6 +368,7 @@ const projectData = [
         stacks: ["SQL"],
         image: EntrepriseImage,
         githubLink: "https://github.com/sainth-nathan-ahoussi/Projet_BD_Entreprise",
+        status: "Finished",
     },
     {
         title: "Merve",
@@ -332,6 +376,7 @@ const projectData = [
         stacks: ["NodeJs","React","CSS"],
         image: "path-to-ayeDot-image.jpg",
         githubLink: "https://github.com/sainth-nathan-ahoussi/Merve",
+        status: "On Hold",
     },
 ];
 
@@ -386,7 +431,14 @@ const Projects = () => {
                     >
                         <img src={project.image} alt={project.title} className="project-image" />
                         <div className="project-content">
-                            <h2 className="project-title">{project.title}</h2>
+                           <h2 className="project-title">
+                                {project.title}
+                                {project.status && (
+                                    <span className={`project-status ${project.status.toLowerCase().replace(/\s/g, '-')}`}>
+                                        {project.status}
+                                    </span>
+                                )}
+                            </h2>
                             <p className="project-description">{project.description}</p>
                             <div className="project-stacks">
                                 {project.stacks.map((stack, i) => (

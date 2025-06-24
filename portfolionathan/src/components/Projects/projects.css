@@ -18,6 +18,34 @@
     font-weight: bold; 
 }
 
+
+.project-status {
+    margin-left: 10px;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: white;
+}
+
+.project-status.finished {
+    background-color: #28a745; /* vert */
+}
+
+.project-status.in-progress {
+    background-color: #ffc107; /* jaune */
+    color: black;
+}
+
+.project-status.abandoned {
+    background-color: #dc3545; /* rouge */
+}
+
+.project-status.on-hold {
+    background-color: #6c757d; /* gris */
+}
+
 .projects-description {
     font-size: 1.2rem;
     margin: 0 auto 30px auto;

@@ -22,8 +22,8 @@ const Presentation = () => {
                 <div class="moi">
                     <h2>IT technologies and Game  <br /> Development Enthusiast.</h2>
                     <br />
-                    <p>I’m Sainth-Nathan Ahoussi, a second year student in the
-                    IUT of Orsay with 3 year of hands-made knowledge.
+                    <p>I’m Sainth-Nathan Ahoussi, a third year student in the
+                    IUT of Orsay going to be a first year in Master of Cybersecurity at Angers or Montpellier.
                     <br />
                     <br />
                     My journey into IT development began at the time of

@@ -6,48 +6,58 @@ import 'aos/dist/aos.css';
 const experiences = [
     {
         title: "Stage - Infotech Mayotte",
-        date: "2018 - 2019",
+        date: "Janvier - Mars 2019 ",
         description: [
-            "Accueil et vente au client",
-            "Prise des commandes et des rendez-vous",
-            "Organisation des dossiers"
+            "- Accueil et vente au client",
+            "- Prise des commandes et des rendez-vous",
+            "- Organisation des dossiers"
         ]
     },
     {
-        title: "Tremplin Citoyen - Association BB Players Viry Chatillon",
-        date: "2020 - 2021",
+        title: "SECRÉTAIRE & ANIMATEUR - ASSOCIATION BB PLAYERS (VIRY-CHÂTILLON)",
+        date: "Juin - Juillet 2021",
         description: [
-            "Animation de groupe d'enfants (7-11 ans)",
-            "Détection de talent",
-            "Mission de secrétariat"
+            "- Animation de groupe d'enfants (7-14 ans)",
+            "- Détection de talent",
+            "- Mission de secrétariat"
         ]
     },
     {
-        title: "Job Étudiant - Somaco Mayotte",
-        date: "2021 - 2022",
+        title: " CAISSIER POLYVALENT - Somaco Mayotte",
+        date: "Mars - Juin 2022",
         description: [
-            "Encaissement",
-            "Mise en rayon",
-            "Préparation des commandes"
+            "- Encaissement",
+            "- Mise en rayon",
+            "- Préparation des commandes"
         ]
     },
     {
-        title: "Job Étudiant - Auchan Retail Chilly Mazarin",
-        date: "Juillet - Février 2023",
+        title: "PRÉPARATEUR DE COMMANDES  - SODIFRAM HYPER DISCOUNT",
+        date: "Juin - Août  2022",
         description: [
-            "Préparation des commandes",
-            "Tri de produit"
+            "- Préparation et tri des produits pour expédition",
+            "- Respect des délais et des consignes de sécurité",
+            "- Organisation et gestion des stocks"
+        ]
+    },
+    {
+        title: "PRÉPARATEUR DE COMMANDES - AUCHAN RETAIL",
+        date: "Juillet - Septembre 2023",
+        description: [
+            "- Préparation et tri des produits pour expédition",
+            "- Respect des délais et des consignes de sécurité",
+            "- Organisation et gestion des stocks"
         ]
     },
     {
         title: "Stage - Singa Paris",
         date: "Juin - Août 2024",
         description: [
-            "Diagnostic et prototypage du site web de la Maison des Réfugiés",
-            "Inventaire du matériel et des outils informatiques de Singa",
-            "Création d'un répertoire Notion pour les projets incubés",
-            "Développement et automatisation d’un programme de génération de structure arborescente",
-            "Analyse et programmation d’une version V1 pour le site web du programme Voix en Exil"
+            "- Diagnostic et prototypage du site web de la Maison des Réfugiés",
+            "- Inventaire du matériel et des outils informatiques de Singa",
+            "- Création d'un répertoire Notion pour les projets incubés",
+            "- Développement et automatisation d’un programme de génération de structure arborescente",
+            "- Analyse et programmation d’une version V1 pour le site web du programme Voix en Exil"
         ]
     }
 ];

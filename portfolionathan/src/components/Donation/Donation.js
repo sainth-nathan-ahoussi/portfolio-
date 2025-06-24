@@ -22,12 +22,12 @@ const Donation = () => {
       <div className="donation-grid">
         <div className="donation-left">
           <img
-            src="https://www.experts-comptables-fr.org/wp-content/uploads/2016/11/sinvestir-seul.jpg"
+            src="https://m.media-amazon.com/images/I/61L4aoIqYOL.__AC_SX300_SY300_QL70_ML2_.jpg"
             alt="helping"
             className="donation-image"
           />
-          <h2 className="donation-title">Help Me Start My companie</h2>
-          <p className="donation-subtitle">Donate to help me invest in my dream companie</p>
+          <h2 className="donation-title">Help Me buy a 3D Printer</h2>
+          <p className="donation-subtitle">Donate to help me acquire a 3D Printer</p>
           <div className="donation-heart">
             <Heart className="heart-icon" />
             <span>Help me in making a difference</span>
