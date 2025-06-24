@@ -79,6 +79,7 @@ const Experience = () => {
                         <div className="timeline-content">
                             <span className="date">{exp.date}</span>
                             <h3>{exp.title}</h3>
+                            <br />
                             <ul>
                                 {exp.description.map((desc, i) => (
                                     <li key={i}>{desc}</li>

@@ -14,16 +14,18 @@ import Contact from './components/Contact/Contact';
 import Donation from './components/Donation/Donation';
 import Footer from './components/Footer/footer';
 import Projects from './components/Projects/Projects';
+import LegalMentions from './components/MentionsLégales/LegalMentions';
 
 function App() {
     return (
         <Router>
             <Marquee />
-            <Header />
+            
             <Routes>
                 {/* Main Home Route */}
                 <Route path="/mainPage" element={
                     <>
+                        <Header />
                         <Parcours />
                         <Presentation />
                         <Skillset />
@@ -40,10 +42,20 @@ function App() {
                 {/* Projects Page Route */}
                 <Route path="/projects" element={
                     <>
+                        <Header />
                         <Projects />
                         <Donation />
                         <Footer />
                     </>
+                } />
+
+
+                {/* Projects Page Mentions Légales */}
+                <Route path="/mentions-legales" element={
+                    <>
+                        <LegalMentions />
+                        <Footer />
+                    </> 
                 } />
             </Routes>
         </Router>

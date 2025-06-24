@@ -31,8 +31,10 @@ const Footer = () => {
                     <div className="Pres"><a href="/mainPage#presentation-section"><span className="highlight">Who I am ?</span></a></div>
                     <div className="Proj"><Link to="/projects">My Projects</Link></div>
                     <div className="Exp"><a href="/mainPage#experience-section">My Experiences</a></div>
+                    <div className="Proj"><Link to="/mentions-legales">Mentions légales</Link></div>
                 </div>
             </div>
+
             <p>2024 - Sainth-Nathan Ahoussi’s Developer Portfolio. France © All rights reserved. Private policy.</p>
         </footer>
     );

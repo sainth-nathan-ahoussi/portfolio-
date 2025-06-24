@@ -31,7 +31,7 @@ const Header = () => {
                 <div className="row">
                     <div className="col"> 
                         <h1>NATHAN</h1>
-                        <h3>" Toujours tout tenter pour n'avoir rien à regretter "</h3>
+                            <h3><i> Toujours tout tenter pour ne rien avoir à regretter. </i></h3>
                         <button type="button"><a href="#presentation-section">Learn More</a></button>
                     </div>
                 </div>
