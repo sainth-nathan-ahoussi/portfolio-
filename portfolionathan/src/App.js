@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import Marquee from './components/Marquee/Marquee';
 import Header from './components/Header/header';
 import Parcours from './components/Parcours/parcours';
@@ -20,12 +21,13 @@ function App() {
     return (
         <Router>
             <Marquee />
-            
+            <Header />
             <Routes>
+                <Route path="/" element={<Navigate to="/mainPage" />} />
+
                 {/* Main Home Route */}
                 <Route path="/mainPage" element={
                     <>
-                        <Header />
                         <Parcours />
                         <Presentation />
                         <Skillset />
@@ -34,18 +36,15 @@ function App() {
                         <Experience />
                         <Newsletter />
                         <Hobbies />
-                        <Contact />
-                        <Footer />
+                        <Contact />   
                     </>
                 } />
 
                 {/* Projects Page Route */}
                 <Route path="/projects" element={
                     <>
-                        <Header />
                         <Projects />
                         <Donation />
-                        <Footer />
                     </>
                 } />
 
@@ -54,10 +53,11 @@ function App() {
                 <Route path="/mentions-legales" element={
                     <>
                         <LegalMentions />
-                        <Footer />
                     </> 
                 } />
+                
             </Routes>
+            <Footer />
         </Router>
     );
 }
