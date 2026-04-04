@@ -23,7 +23,7 @@ const Langues = () => {
                 <div class="espagne"><img src= {EspagneImage} /> <p> Intermediate (B1)</p></div>
                 <div class="portugal"><img src= {PortugalImage} /> <p> In Progress</p></div>
                 <div class="coteIvoire"><img src= {CIVImage} /> <p> In Progress</p></div>
-                <div class="anglais"><img src= {AnglaisImage} /> <p>Intermediate (C1)</p></div>
+                <div class="anglais"><img src= {AnglaisImage} /> <p><a href="https://www.etsglobal.org/fr/en/digital-score-report/9C35571E742355627BC2843B03ADAE18D0BBBFED3FB9FC622AC205225CAC9F1CVGxWU0wwancrSW1mVFE1OElzclk4Rkh6S0RLejk0UG40djYrMVQyNmFoTTRRb2JK?utm_campaign=sharing_dsr&utm_medium=qr-code-click&utm_source=dsr">Intermediate (B2- TOEIC Link)</a></p></div>
                 <div class="france"><img src= {FranceImage} /> <p>Natal</p></div>
                 <div class="coree"><img src= {CoreeImage} /> <p>In Progress</p></div>
                 <div class="nigeria"><img src= {NigeriaImage} /> <p>In Progress</p></div>

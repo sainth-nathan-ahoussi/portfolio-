@@ -44,6 +44,12 @@
 .italie{grid-column: 3; grid-row: 2;}
 .congo{grid-column: 3; grid-row: 3;}
 
+
+.anglais p a:link {
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (max-width: 768px) {
   .languages .grilleLanguages {
     display: grid;

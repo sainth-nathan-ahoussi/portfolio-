@@ -5,7 +5,7 @@ const Marquee = () => {
   return (
     <div className="marquee-container">
       <div className="marquee-text">
-        Recherche urgente d'une alternance en cybersécurité à Angers ou Montpellier pour 2 ans !!
+        Recherche urgente d'une alternance en cybersécurité à Angers ou Montpellier pour 2 ans !!     Urgently seeking a 2-year apprenticeship in cybersecurity in Angers or Montpellier !!
       </div>
     </div>
   );
