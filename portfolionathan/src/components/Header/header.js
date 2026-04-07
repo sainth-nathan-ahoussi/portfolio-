@@ -13,6 +13,7 @@ const Header = () => {
     return (
         <header className="header">
             <link href='https://fonts.googleapis.com/css?family=Handjet' rel='stylesheet'></link>
+            <link href='https://fonts.googleapis.com/css?family=Inknut Antiqua' rel='stylesheet'></link>
             <div className="container">     
                 <div className="navbar">
                     <div className="logo">   
@@ -32,7 +33,7 @@ const Header = () => {
                 </div>
                 <div className="row">
                     <div className="col"> 
-                        <h1>NATHAN</h1>
+                        <h1>SAINTH-NATHAN</h1>
                             <h3><i>Try everything to regret nothing ! </i></h3>
                         <button type="button"><a href="#presentation-section">Learn More</a></button>
                     </div>
