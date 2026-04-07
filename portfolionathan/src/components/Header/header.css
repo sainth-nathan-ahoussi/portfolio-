@@ -64,14 +64,16 @@
   }
   
   h1 {
-    color: #a17d60;
+    color: #FFC943;
     font-size: 200px;
     width: fit-content;
+    font-family: 'Handjet';
   }
   
   h3{
     color:#fff;
     font-size: 35px;
+    font-family: 'Inknut Antiqua';
   }
   
   p{
@@ -82,12 +84,12 @@
   
   button{
     width: 100px;
-    color: #a17d60;
+    color: #FFC943;
     font-size: 12px;
     padding: 12px 0;
     background-color: transparent;
     border: 0;
-    outline: solid #a17d60;
+    outline: solid #FFC943 30px;
     margin-top: 30px;
   }
 

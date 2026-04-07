@@ -12,6 +12,7 @@ const Header = () => {
 
     return (
         <header className="header">
+            <link href='https://fonts.googleapis.com/css?family=Handjet' rel='stylesheet'></link>
             <div className="container">     
                 <div className="navbar">
                     <div className="logo">   
@@ -25,13 +26,14 @@ const Header = () => {
                             <li><a href="/mainPage#presentation-section"><span className="highlight">Who I am ?</span></a></li>
                             <li><Link to="/projects">My Projects</Link></li>
                             <li><a href="/mainPage#experience-section">My Experiences</a></li>
+                            <li><a href="">My Certifications</a></li>
                         </ul>    
                     </nav>   
                 </div>
                 <div className="row">
                     <div className="col"> 
                         <h1>NATHAN</h1>
-                            <h3><i> Toujours tout tenter pour ne rien avoir à regretter. </i></h3>
+                            <h3><i>Try everything to regret nothing ! </i></h3>
                         <button type="button"><a href="#presentation-section">Learn More</a></button>
                     </div>
                 </div>
