@@ -5,7 +5,7 @@ const Marquee = () => {
   return (
     <div className="marquee-container">
       <div className="marquee-text">
-        Recherche Urgente d’une Alternance en Intelligence Artificielle ou Cybersécurité sur Paris pour 2 ans !!!  
+          Urgently Seeking a 2‑Year Work‑Study Program in Artificial Intelligence or Cybersecurity in Paris
       </div>
     </div>
   );

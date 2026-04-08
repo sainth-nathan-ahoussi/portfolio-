@@ -9,33 +9,35 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer className="footer">
+             <link href='https://fonts.googleapis.com/css?family=Handjet' rel='stylesheet'></link>
+              <link href='https://fonts.googleapis.com/css?family=Inknut Antiqua' rel='stylesheet'></link>
+             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></link>
             <div className="footerMenu">
                 <div className="grilleReseau">
                     <div className="message">
                         <p>
-                            Feel Free to contact me.<br />
-                            I’m actually looking for an internship
+                            Feel Free to contact me.
+                            <br />
+                            <br />
+                            I’m actually looking for an Apprenticeship
                         </p>
                     </div>
                     <div className="listeLogo">
-                        <div className="github"><a href="https://github.com/sainth-nathan-ahoussi"><img src={GithubImage} alt="GitHub" /></a></div>
-                        <div className="twitter"><a href=""><img src={TwitterImage} alt="Twitter" /></a></div>
-                        <div className="linkedin"><a href="https://www.linkedin.com/in/sainth-nathan-ahoussi-526412279/"><img src={linkedinImage} alt="LinkedIn" /></a></div>
+                        <div className="github"><a href="https://github.com/sainth-nathan-ahoussi"><i class="fab fa-facebook-f icon"></i></a></div>
+                        <div className="twitter"><a href=""><i class="fab fa-youtube icon"></i></a></div>
+                        <div className="linkedin"><a href="https://www.linkedin.com/in/sainth-nathan-ahoussi-526412279/"><i class="fab fa-linkedin-in icon"></i></a></div>
+                        <div className="linkedin"><a href=""><i class="fab fa-paypal icon"></i></a></div>
                     </div>
-                    
-                    <div className="logo2"><Link to="/main"><img src={MonLogoImage} alt="Logo" /></Link></div>
-                    <div className="mail"><p>nathanahoussi502@gmail.com</p></div>
                 </div>
-
                 <div className="grillefooterMenu">
                     <div className="Pres"><a href="/mainPage#presentation-section"><span className="highlight">Who I am ?</span></a></div>
                     <div className="Proj"><Link to="/projects">My Projects</Link></div>
                     <div className="Exp"><a href="/mainPage#experience-section">My Experiences</a></div>
-                    <div className="Proj"><Link to="/mentions-legales">Mentions légales</Link></div>
+                    <div className="Proj"><Link to="">My Certifications</Link></div>
                 </div>
             </div>
 
-            <p>2024 - Sainth-Nathan Ahoussi’s Developer Portfolio. France © All rights reserved. Private policy.</p>
+            <p>2026 - Sainth-Nathan Ahoussi’s Developer Portfolio. France © All rights reserved. Private policy.</p>
         </footer>
     );
 };
