@@ -148,8 +148,11 @@ button:hover a {
   }
 
   .navbar {
+    display: flex;
     justify-content: space-between; 
     position: relative;
+    height: 60px;
+    padding: 0 20px;
   }
 
   .menu-toggle {
@@ -179,9 +182,12 @@ button:hover a {
   }
 
   nav ul li {
+    list-style: none;
+    display: inline-block;
     margin: 10px 0;
     text-align: center;
   }
+
 
   h1 {
     font-size: 80px;
@@ -190,8 +196,37 @@ button:hover a {
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 23px;
     text-align: center;
+  }
+  p{
+    color:#fff;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+    button{
+    width: 100px;
+    color: #FFC943;
+    font-family: 'Handjet';
+    font-size: 1_px;
+    padding: 12px 0;
+    background-color: transparent;
+    border: 0;
+    outline: solid #FFC943 5px;
+    margin-top: 30px;
+  }
+
+   button a:link, button a:visited {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  button:hover {
+    background-color: #FFC943;
   }
 }
 
