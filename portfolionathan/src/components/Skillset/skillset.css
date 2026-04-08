@@ -2,12 +2,22 @@
   background-color: #f8f8f8;
   padding: 40px 20px;
   text-align: center;
+  font-family: 'Inknut Antiqua';
+  line-height: 1.15;
 }
 
 .skillset h4 {
   color: black;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: 'Inknut Antiqua';
+}
+
+.skillset h5 {
+  color: #FFC943;
   font-size: 30px;
   margin-bottom: 10px;
+  font-family: 'Handjet';
 }
 
 .skillset p {
@@ -25,6 +35,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
+  font-family: 'Handjet';
 }
 
 .column {
@@ -33,15 +44,21 @@
   align-items: center;
   flex: 1 1 calc(33.333% - 20px);
   padding: 10px;
+  border-right: thick solid black;
 }
 
-.column p {
+.column_bis{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 calc(33.333% - 20px);
+  padding: 10px;
+}
+
+.column p,  .column_bis p{
   font-weight: bold;
+  font-size: 20px;
   margin: 8px 0;
-}
-
-.divider {
-  display: none;
 }
 
 
