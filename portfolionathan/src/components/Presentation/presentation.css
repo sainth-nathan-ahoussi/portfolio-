@@ -1,49 +1,69 @@
 
 .presentation{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 17%;
+    margin-right: 18%;
   }
   
   .presentation p {
     color:black ;
   }
+
   .moi{
-    grid-row: 2;
+    grid-column: 2;
+  }
+  .moi h2{
+    font-size: 30px;
+    font-family: 'Handjet';
+    color: #FFC943;
+  }
+  .moi a {
+      list-style: none;
+      text-decoration: none;
+      color: black;
   }
   
   .presentation .moi p {
+    font-size: 18px;
+    line-height: 1.15;
+    font-family: 'Inknut Antiqua';
+  }
+
+   .company p {
     font-size: 15px;
+    font-family: 'Inknut Antiqua';
   }
   
   .grillePresentation{
     display: grid;
-    grid-template-rows: 2 ;
+    grid-template-columns: auto ;
   }
   
   .photo{
-    grid-row: 1;
+    grid-column: 1;
+    margin-right: 30px;
     align-items: center;
     text-align: center;
   }
   
   .photo .me img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     position: static;
     margin-left: 50px;
     margin-right: 10px;
-    border: solid black 20px;
   }
   
+
   
   .cv a {
-    outline: solid black;
     background-color: black;
     padding: 10px 10px;
     color: white;
     list-style: none;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 8px;
+    font-family: 'Handjet';
+    font-size: 25px;
   }
   
   .presentation .grillePresentation .company{
@@ -56,35 +76,90 @@
   }
   
   .company img{
-    width: 200px;
-    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 200px;
     
   }
   
   @media (max-width: 768px) {
-    .photo {
-      grid-row: 1;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      display: flex; 
-      flex-direction: column;
-    }
-    
-    .photo .me img {
-      width: 300px;
-      height: 300px;
-      justify-content: center;
-      align-self: center;
-      border: solid black 20px;
-      margin: 0 auto; 
-    }
+     .grillePresentation{
+        display: grid;
+        grid-template-rows: 2;
+        margin-left: -5px;
+      }
+   
+      
+      .presentation p {
+        color:black ;
+      }
+
+      .moi{
+        grid-row: 2;
+        grid-column: 1;
+      }
+      .moi h2{
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: 'Handjet';
+        color: #FFC943;
+      }
+      .moi a {
+          list-style: none;
+          text-decoration: none;
+          color: black;
+      }
+      
+      .presentation .moi p {
+        font-size: 20px;
+        font-family: 'Inknut Antiqua';
+      }
+
+      .company p {
+        font-size: 10px;
+        font-family: 'Inknut Antiqua';
+      }
+      
+     
+      .photo{
+        grid-row: 1;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .photo .me img {
+        width: 200px;
+        height: 200px;
+        position: static;
   
-    .company img {
-      width: 200px;
-      height: 100px;
-    }
-    .company p{
-      margin-bottom: 10px;
-    }
+      }
+
+      
+      .cv a {
+        background-color: black;
+        padding: 10px 10px;
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        border-radius: 8px;
+        font-family: 'Handjet';
+        font-size: 25px;
+      }
+      
+      
+      .presentation .grillePresentation .company p {
+        font-weight: bolder;
+      }
+      
+      .company img{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 100px;
+        height: 150px;
+      }
+
+      .company h2{
+        font-size: 20px;
+      }
   }

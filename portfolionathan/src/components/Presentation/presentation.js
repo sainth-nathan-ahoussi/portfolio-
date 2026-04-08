@@ -6,24 +6,26 @@ import CompanyImage from '../../Images/Company.png';
 const Presentation = () => {
     return (
         <div class="presentation" id="presentation-section">
+             <link href='https://fonts.googleapis.com/css?family=Handjet' rel='stylesheet'></link>
+              <link href='https://fonts.googleapis.com/css?family=Inknut Antiqua' rel='stylesheet'></link>
             <div class="grillePresentation">
                 <div class="photo">
                     <div class="me">
                         <img src={MoiImage} />
                     </div>
-                <br />
+                    <br />
                     <div class="company">
                         <h2>Dream Company Name</h2>
                         <img src={CompanyImage} />
-                        <p> Jayrus Entertainment </p>
+                        <p> Jayrus Corporation </p>
                     </div>
                 </div>
         
                 <div class="moi">
-                    <h2>IT technologies and Game  <br /> Development Enthusiast.</h2>
+                    <h2>IT technologies and Game Development  Enthusiast.</h2>
                     <br />
-                    <p>I’m Sainth-Nathan Ahoussi, a third year student in the
-                    IUT of Orsay going to be a first year in Master of Cybersecurity at Angers or Montpellier.
+                    <p>I’m Sainth-Nathan Ahoussi, a Graduate to be of IUT of Orsay, 
+                        planning to enter the second year of an engineering school with a specialization in Artificial Intelligence or Cybersecurity.
                     <br />
                     <br />
                     My journey into IT development began at the time of
@@ -53,14 +55,12 @@ const Presentation = () => {
                     Ankama and Ubisoft.<br />
                     <br />
                     For a more in-depth understanding of my qualifications,
-                    click on my <a href="https://github.com/sainth-nathan-ahoussi">Github</a> page or get in touch with me at   
-                    &nbsp; <strong><i>nathanahoussi502@gmail.com</i></strong></p>
+                    click on my <a href="https://github.com/sainth-nathan-ahoussi"><strong>Github</strong></a> page or get in touch with me by leaving a message at the   
+                    <strong><i> Contact Form section.</i></strong></p>
                     <br />
                     <br />
                     <div class="cv"><a href="/CurriculumVitae_Alternance_AHOUSSI.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
                     <br />
-                    <br />
-                    <p>(PDF format, 1.7 MB)</p>
                     <br />
                 </div>
             </div>
