@@ -1,6 +1,6 @@
 .grilleParcours {
     display: grid;
-    grid-template-columns: 4;
+    grid-template-columns: auto;
     margin-top: 20px;
     margin-bottom: 30px;
     gap: 200px;
@@ -15,7 +15,6 @@
   .College{
     grid-column: 1;
   }
-
   .LyceeV{
     grid-column: 2;
   }
@@ -29,15 +28,15 @@
   @media (max-width: 768px) {
     .grilleParcours {
       display: grid;
-      grid-template-columns: 7;
+      grid-template-columns: auto;
       margin-top: 20px;
       margin-bottom: 30px;
-      gap: 15px;
+      gap: 20px;
       justify-content: center;
     }
     
     .parcours .grilleParcours img{
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
     }
   }
