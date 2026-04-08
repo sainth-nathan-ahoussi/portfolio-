@@ -1,9 +1,5 @@
 import React from 'react';
 import './footer.css';
-import MonLogoImage from '../../Images/LogoCorner.png';
-import GithubImage from '../../Images/github.png';
-import TwitterImage from '../../Images/twitter.png';
-import linkedinImage from '../../Images/linkedin.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -23,10 +19,10 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="listeLogo">
-                        <div className="github"><a href="https://github.com/sainth-nathan-ahoussi"><i class="fab fa-facebook-f icon"></i></a></div>
-                        <div className="twitter"><a href=""><i class="fab fa-youtube icon"></i></a></div>
+                        <div className="github"><a href="https://github.com/sainth-nathan-ahoussi"><i class="fab fa-github icon"></i></a></div>
+                        <div className="twitter"><a href="https://youtube.com/@parolesprogrammees?si=7YOQDvIviRPCkua8"><i class="fab fa-youtube icon"></i></a></div>
                         <div className="linkedin"><a href="https://www.linkedin.com/in/sainth-nathan-ahoussi-526412279/"><i class="fab fa-linkedin-in icon"></i></a></div>
-                        <div className="linkedin"><a href=""><i class="fab fa-paypal icon"></i></a></div>
+                        <div className="linkedin"><a href="https://www.paypal.me/AhoussiNathan"><i class="fab fa-paypal icon"></i></a></div>
                     </div>
                 </div>
                 <div className="grillefooterMenu">
