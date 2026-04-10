@@ -1,22 +1,42 @@
-.hobbies h4{
-  color: black;
-  align-items: center;
-  text-align: center;
-  font-size: 30px;
-}
-
-.hobbies p{
-  color: black;
-  align-items: center;
-  text-align: center;
-}
-
-
 .hobbies
 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.hobbies h4{
+  color: black;
+  align-items: center;
+  text-align: center;
+   font-family: 'Inknut Antiqua';
+  font-size: 30px;
+}
+
+.hobbies p{
+  color: #FFC943;
+  align-items: center;
+  text-align: center;
+  font-weight:bold;
+  font-family: 'Handjet';
+  font-size: 15px;
+}
+
+.hobbies h5{
+    color:light-dark(#333b3c, #ffffff);
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    line-height: 1.15;
+    font-weight:bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Handjet';
+    align-items: center;
+    text-align: center;
+}
+
+
+
 
 
 .grilleHobbies{
