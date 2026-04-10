@@ -15,7 +15,7 @@ const Skillset = () => {
                     <p>Decision Making</p>
                     <p>Strong Comprehension</p>
                     <p>Organized</p>
-                    <p>Attention to Detail / Rigor</p>
+                    <p>Attention to Detail</p>
                 </div>
                 <div className="column">
                     <h5>Interpersonal Skills</h5>
