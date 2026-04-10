@@ -395,7 +395,7 @@ const Projects = () => {
 
     return (
         <div className="projects-container">
-            <h1 className="projects-title">Projects</h1>
+            <h1 className="projects-title">My Projects</h1>
             <p className="projects-description">
                 Welcome to my project page !  <br /> 
                 Here you can explore a collection of my work, including web apps, AI projects, and much more made in school, work or even for myself  <br /> 

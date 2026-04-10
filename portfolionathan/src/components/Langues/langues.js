@@ -7,9 +7,7 @@ import CIVImage from '../../Images/Languages/coteIvoire.png';
 import AnglaisImage from '../../Images/Languages//uk.png';
 import FranceImage from '../../Images/Languages/france.png';
 import CoreeImage from '../../Images/Languages/coree.png';
-import NigeriaImage from '../../Images/Languages/nigeria.png';
 import CreoleImage from '../../Images/Languages/creole.png';
-import ItalieImage from '../../Images/Languages/italie.png';
 import CongoImage from '../../Images/Languages/congo.png';
 
 const Langues = () => {

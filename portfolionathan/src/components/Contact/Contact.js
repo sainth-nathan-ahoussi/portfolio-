@@ -1,4 +1,4 @@
-import React, { useState, FormEvent } from 'react';
+import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast, Toaster } from 'react-hot-toast';
 import './contact.css';
@@ -20,13 +20,6 @@ const Contact = () => {
         }));
     };
     
-
-    const handleCheckbox  = (e) => {
-        setFormData(prev => ({
-            ...prev,
-            terms: e.target.checked
-        }));
-    };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
