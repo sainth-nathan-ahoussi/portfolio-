@@ -1,53 +1,69 @@
+
 .languages h4 {
   color: black;
   align-items: center;
   text-align: center;
+  font-family: 'Inknut Antiqua';
   font-size: 30px;
 }
 
+.languages h5{
+    color:light-dark(#333b3c, #ffffff);
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    line-height: 1.15;
+    font-weight:bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Handjet';
+}
+
 .languages p{
-  color: black;
+  color: #FFC943;
   align-items: center;
   text-align: center;
+  font-family: 'Handjet';
+  font-weight: bold;
+  font-size: 20px;
 }
+
 
 .languages{
   background-color:#f8f8f8;
+  padding: 40px 20px;
 }
 
 
-.languages .grilleLanguages {
+ .grilleLanguages {
   display: grid;
   grid-template-columns: 3;
   grid-template-rows:4 ;
   margin-top: 10px;
-  margin-bottom: 10px;
   margin-left: 20%;
   margin-right: 20%;
   align-items: center;
   text-align: center;
 }
 
-.languages .grilleLanguages img {
+.grilleLanguages img {
   width:90px;
 }
 
-.japon{ grid-column: 1; grid-row: 1; }
-.espagne{grid-column: 1; grid-row: 2; margin-top: 12px;}
-.portugal{grid-column: 1; grid-row: 3; margin-top: 12px;} 
-.coteIvoire{grid-column: 1; grid-row: 4; margin-top: 12px;}
+.japon{ grid-column: 2; grid-row: 2; margin-top: 12px;}
+.espagne{grid-column: 3; grid-row: 1; }
+.portugal{grid-column: 1; grid-row: 2; margin-top: 12px;} 
+.coteIvoire{grid-column: 3; grid-row: 2; margin-top: 12px;}
 .anglais{grid-column: 2; grid-row: 1;}
-.france{grid-column: 2; grid-row: 2; margin-top: 12px;}
-.coree{grid-column: 2; grid-row: 3;}
-.nigeria{grid-column: 2; grid-row: 4; margin-top: 12px;}
-.creole{grid-column: 3; grid-row: 1;}
-.italie{grid-column: 3; grid-row: 2;}
-.congo{grid-column: 3; grid-row: 3;}
+.france{grid-column: 1; grid-row: 1; margin-top: 12px;}
+.coree{grid-column: 2; grid-row: 3;margin-top: 12px;}
+.creole{grid-column: 1; grid-row: 3; margin-top: 12px;}
+.congo{grid-column: 3; grid-row: 3; margin-top: 12px;}
 
 
 .anglais p a:link {
   text-decoration: none;
-  color: black;
+  color: #FFC943;
 }
 
 @media screen and (max-width: 768px) {
