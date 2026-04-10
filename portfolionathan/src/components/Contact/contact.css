@@ -22,9 +22,10 @@
     flex: 1;
     max-width: 500px;
     padding: 20px;
-    background: #fff;
+    background: #f5f5f5;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -36,7 +37,9 @@
     text-align: left;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #333;
+    color: black;
+    font-size: 17px;
+    font-family: 'Handjet';
 }
 
 
@@ -45,7 +48,7 @@
 .contact-form textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid black;
     border-radius: 4px;
     font-size: 14px;
     color: #333;
@@ -56,7 +59,7 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #007bff;
+    border-color: #FFC943;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
     outline: none;
 }
@@ -70,80 +73,54 @@
     margin-bottom: 15px;
 }
 
-.contact-form .form-group-checkbox {
-    display: flex;
-    align-items: center;
-    gap: 8px; 
-    text-align: left;
-    margin-bottom: 15px;
-    flex-wrap: nowrap;
-}
-
-.contact-form .form-group-checkbox a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.contact-form .form-group-checkbox a:hover {
-    text-decoration: underline;
-}
-
-
-.contact-form .form-group-checkbox input[type="checkbox"] {
-    margin: 0;
-    transform: scale(1.2); 
-}
-
-
 .contact-form button {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
+    background-color: #fff;
+    color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    border-radius: 25px;
+    border-radius: 5px;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-.contact-form button:hover {
-    background-color: #0056b3;
+.contact-form button:hover { 
+    background-color: #FFC943;
+    color: #fff;
 }
 
 
 .contact-info {
     flex: 1;
     max-width: 500px;
-    padding: 20px;
     background: #f5f5f5;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly; 
 }
 
-.contact-info h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #333;
+.contact-info h3, .contact-form h2 {
+    font-size: 30px;
+    color: #FFC943;
+    font-family: 'Handjet';
 }
 
 .contact-info p,
 .contact-info ul {
     font-size: 14px;
-    color: #555;
-    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inknut Antiqua';
 }
 
 .contact-info ul {
     list-style: none;
-    padding: 0;
 }
 
 @media (max-width: 768px) {
@@ -155,5 +132,21 @@
     .contact-form,
     .contact-info {
         max-width: 100%;
+    }
+    
+    .contact-info h3 {
+        font-size: 20px;
+        color: #FFC943;
+        font-family: 'Handjet';
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .contact-info p,
+    .contact-info ul {
+        font-size: 13px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Inknut Antiqua';
     }
 }

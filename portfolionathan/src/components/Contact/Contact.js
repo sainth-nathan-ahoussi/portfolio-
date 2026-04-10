@@ -109,7 +109,7 @@ const Contact = () => {
                 <br />
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="name">Your Name: </label>
+                        <label htmlFor="name">Your Name : </label>
                         <input
                             type="text"
                             id="name"
@@ -143,35 +143,20 @@ const Contact = () => {
                             required
                         ></textarea>
                     </div>
-                   <div className="form-group-checkbox">
-                        <input
-                            type="checkbox"
-                            id="terms"
-                            checked={formData.terms}
-                            onChange={handleCheckbox}
-                            required
-                        />
-                        <label htmlFor="terms">
-                            I accept the <a href="#terms">Terms of Use</a>
-                        </label>
-                    </div>
-
                     <button type="submit" disabled={isSubmitting}>
-                        {isSubmitting ? 'Sending...' : 'Send'}
+                        {isSubmitting ? 'Sending...' : 'SEND'}
                     </button>
                 </form>
             </div>
             <div className="contact-info">
-                <h3>About Me</h3>
-                <h3>Where I'm  :</h3>
-                <p>Massy 91300<br />France, Ile-de-France</p>
-                <h3>What I can do :</h3>
+                <h3>Where I'm at:</h3>
+                <p>Orsay 91400<br />France, Ile-de-France</p>
+                <h3>What I can do For you:</h3>
                 <ul>
-                    <li>Websites</li>
-                    <li>Application</li>
+                    <li>Build Websites / Application</li>
                     <li>Programing Algorithms</li>
-                    <li>Traduction</li>
-                    <li>Filming and Montage</li>
+                    <li>English Traduction</li>
+                    <li>Filming and Editing</li>
                     <li>Pcs Installation and Configuration</li>
                 </ul>
             </div>
