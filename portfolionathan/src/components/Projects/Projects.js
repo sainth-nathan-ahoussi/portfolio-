@@ -402,8 +402,8 @@ const Projects = () => {
                 Use the search or filtering options to find projects based on your language interests.<br /> 
                 <br /> 
                 <br /> 
-                Take a look and if you find my work great and you would like to colab to make one of your idea come to live, don't mind contacting me.<br /> 
-                And if you just want to support my work or my dream you can donate the amount you want in total security in the end of the website.
+                Take a look and if you find my work great and you would like to collab to make one of your idea come to live, don't mind contacting me.<br /> 
+                And if you just want to support my work or my dream you can donate the amount you want in a secure way in the donation section of the website.
 
             </p>
 

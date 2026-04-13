@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Donation.css'; 
-import { Heart, DollarSign, CreditCard } from 'lucide-react';
+import { Heart, DollarSign } from 'lucide-react';
 
 const Donation = () => {
   const [frequency, setFrequency] = useState('one-time');
@@ -58,7 +58,7 @@ const Donation = () => {
           <div className="amount-section">
             <p className="section-title">Amount*</p>
             <div className="amount-buttons">
-              {[10, 20, 100, 200].map((value) => (
+              {[10, 20, 30, 100, 200, 300].map((value) => (
                 <button
                   key={value}
                   onClick={() => handleAmountClick(value)}
@@ -80,11 +80,7 @@ const Donation = () => {
           <div className="payment-buttons">
             <button className="paypal-button">
               <DollarSign size={20} />
-              Donate with PayPal
-            </button>
-            <button className="card-button">
-              <CreditCard size={20} />
-              Donate with Card
+                <a href="https://www.paypal.me/AhoussiNathan">Donate with PayPal</a>
             </button>
           </div>
         </div>

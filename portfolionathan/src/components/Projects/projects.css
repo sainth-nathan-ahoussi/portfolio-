@@ -78,13 +78,14 @@
     background-color: #FFC943;
     color: #fff;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .filter-button:hover {
-    background-color: #543caa;
+    background-color: #fff;
+    color: black;
 }
 
 .projects-grid {
@@ -141,7 +142,7 @@
 .stack {
     background-color: #FFC943; 
     color: black;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 12px;
