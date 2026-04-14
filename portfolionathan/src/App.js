@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Navigate } from 'react-router-dom';
 import Marquee from './components/Marquee/Marquee';
 import Header from './components/Header/header';
 import Parcours from './components/Parcours/parcours';
@@ -15,7 +14,6 @@ import Contact from './components/Contact/Contact';
 import Donation from './components/Donation/Donation';
 import Footer from './components/Footer/footer';
 import Projects from './components/Projects/Projects';
-import LegalMentions from './components/MentionsLégales/LegalMentions';
 
 function App() {
     return (
@@ -23,10 +21,8 @@ function App() {
             <Marquee />
             <Header />
             <Routes>
-                <Route path="/" element={<Navigate to="/mainPage" />} />
-
                 {/* Main Home Route */}
-                <Route path="/mainPage" element={
+                <Route path="/main" element={
                     <>
                         <Parcours />
                         <Presentation />
@@ -46,14 +42,6 @@ function App() {
                         <Projects />
                         <Donation />
                     </>
-                } />
-
-
-                {/* Projects Page Mentions Légales */}
-                <Route path="/mentions-legales" element={
-                    <>
-                        <LegalMentions />
-                    </> 
                 } />
                 
             </Routes>
