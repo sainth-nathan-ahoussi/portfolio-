@@ -388,9 +388,17 @@ const Projects = () => {
             project.stacks.some(stack => stack.toLowerCase().includes(filter.toLowerCase()))
           )
         : projectData;
+        
+          //// Status Projet FIltre 
+    // const filteredProjectsStatus = filter
+    //     ? projectData.filter(project =>
+    //         project.status(status => status.toLowerCase().includes(filter.toLowerCase()))
+    //       )
+    //     : projectData;
 
     const openFilterMenu = () => {
         alert("Filter menu functionality to be implemented!");
+   
     };
 
     return (
