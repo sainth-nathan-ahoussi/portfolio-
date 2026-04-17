@@ -11,13 +11,13 @@ const CertificationIA = [
     },
     {
         title: "Introduction to Model Context Protocol",
-        description: "",
+        description: "Certificat of completion of the Anthropic course about Initiation of MCP concept",
         image: "",
         Link: "https://verify.skilljar.com/c/jn7ersseacwe",
     },
     {
         title: "Model Context Protocol: Advanced Topics",
-        description: "",
+        description: "Certificat of completion of the Anthropic course about advanced subjects of MCP",
         image: "",
         Link: "https://verify.skilljar.com/c/ujqmai3ng4ub",
     }
