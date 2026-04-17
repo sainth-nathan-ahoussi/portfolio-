@@ -1,0 +1,65 @@
+.pagecontent{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.IA_content{
+    margin-bottom: 70px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Handjet';
+    color: #FFC943;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.carousel-item {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.carousel-image img {
+  width: 200px;
+  height: 200px; 
+}
+
+.carousel-titre {
+  font-style: italic;
+}
+
+.carousel-description p{
+    font-size: 20px;
+    color: black;
+}
+
+ .prev-button,
+  .next-button {
+    background-color: #FFC943; 
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 20px;
+    position: static;
+    margin-top: 100px;
+    cursor: pointer;
+    border: none;
+    
+  }
+
+  .prev-button {
+    left: 10px;
+    transform: translateY(-50%);
+  }
+
+  .next-button {
+    margin-left: 30px;
+    right: 10px;
+    transform: translateY(-50%);
+  }

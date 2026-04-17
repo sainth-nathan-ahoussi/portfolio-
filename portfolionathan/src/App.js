@@ -14,6 +14,7 @@ import Contact from './components/Contact/Contact';
 import Donation from './components/Donation/Donation';
 import Footer from './components/Footer/footer';
 import Projects from './components/Projects/Projects';
+import Certifications from './components/Certifications/Certification' ;
 
 function App() {
     return (
@@ -41,6 +42,13 @@ function App() {
                     <>
                         <Projects />
                         <Donation />
+                    </>
+                } />
+
+                  {/* Projects Page Route */}
+                <Route path="/Certifications" element={
+                    <>
+                        <Certifications />
                     </>
                 } />
                 
