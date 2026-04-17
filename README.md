@@ -19,7 +19,7 @@ Welcome to my personal portfolio! This project showcases my professional and aca
 
 - **Frontend**: React.js, CSS, and JavaScript
 - **Email Service**: EmailJS for form submissions
-- **Hosting**: [Specify hosting platform if applicable, e.g., Netlify, Vercel, GitHub Pages]
+- **Hosting**: AlwaysData
 
 ---
 
