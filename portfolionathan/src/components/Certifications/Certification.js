@@ -4,14 +4,33 @@ import './Certification.css';
 
 const CertificationIA = [
     {
-        title: "",
+        title: "Al Fluency Framework & Foundations",
         description: "",
         image: "",
-        Link: "",
+        Link: "https://verify.skilljar.com/c/j4rubwegmff2",
+    },
+    {
+        title: "Introduction to Model Context Protocol",
+        description: "",
+        image: "",
+        Link: "https://verify.skilljar.com/c/jn7ersseacwe",
+    },
+    {
+        title: "Model Context Protocol: Advanced Topics",
+        description: "",
+        image: "",
+        Link: "https://verify.skilljar.com/c/ujqmai3ng4ub",
     }
 ]
 const CertificationCyber = []
-const CertificationEnglish = []
+const CertificationEnglish = [
+     {
+        title: "Test of English for International Communication (TOEIC)",
+        description: "Test result of TOIEC",
+        image: "",
+        Link: "https://www.etsglobal.org/fr/en/digital-score-report/9C35571E742355627BC2843B03ADAE18D0BBBFED3FB9FC622AC205225CAC9F1CVGxWU0wwancrSW1mVFE1OElzclk4Rkh6S0RLejk0UG40djYrMVQyNmFoTTRRb2JK?utm_campaign=sharing_dsr&utm_medium=qr-code-click&utm_source=dsr",
+    }
+]
 const CertificationDev = []
 
 
