@@ -22,7 +22,7 @@ function App() {
             <Header />
             <Routes>
                 {/* Main Home Route */}
-                <Route path="/main" element={
+                <Route path="/" element={
                     <>
                         <Parcours />
                         <Presentation />

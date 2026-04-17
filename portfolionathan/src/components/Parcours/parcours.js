@@ -1,10 +1,8 @@
 import React from 'react';
 import './parcours.css'; 
 import CollegeImage from '../../Images/Parcours/college_sada.png';
-import BrevetImage from '../../Images/Parcours/Brevet-college.jpg';
 import LyceeVImage from '../../Images/Parcours/vilgenis.png';
 import LyceeMImage from '../../Images/Parcours/Mayotte.png';
-import BacImage from '../../Images/Parcours/bac.png';
 import OrsayImage from '../../Images/Parcours/orsay.png';
 
 const Parcours = () => {

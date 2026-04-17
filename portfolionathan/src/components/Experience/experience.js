@@ -10,9 +10,9 @@ const experiences = [
         Entreprise:"Michelin (Clermont-Ferrand)",
         Logo:"https://media.licdn.com/dms/image/v2/D4D0BAQEZ8x7ezlOdEw/company-logo_200_200/company-logo_200_200/0/1707743589225/fondation_dentreprise_michelin_logo?e=2147483647&v=beta&t=XgzSKNeW6JOUNOSNnLAy2YiqHv-Nk7qrtLQbUmMEXKM",
         description: [
-            "- Analysis and presentation of the R1 2026 release for the Workday Michelin teams and country stakeholders.",
-            "- Development of a multilingual Power Apps decision-support tool, integrated with Microsoft Lists and deployed on Microsoft SharePoint for Michelin SP and C&B teams.",
-            "- Participation in Innovation Labs focused on the creation of an AI Agent using Flowise and Extend, including the delivery of a Proof of Concept (POC).",
+            "- Analysis and presentation of the R1 2026 release for the Workday Michelin teams and Michelin country stakeholders.",
+            "- Development of a multilingual Power Apps decision-support tool to display all remuneration tools, integrated with Microsoft Lists and deployed on Microsoft SharePoint for Michelin SP and C&B teams.",
+            "- Participation in Innovation Labs focused on the creation of an AI Agent looking to be a digital twin of an employee using Flowise and Extend, including the delivery of a Proof of Concept (POC).",
             "- React development of a widget displaying Workday training content within an Employee Space."
         ]
     },
