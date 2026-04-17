@@ -5,23 +5,23 @@ import CompanyImage from '../../Images/Company.png';
 
 const Presentation = () => {
     return (
-        <div class="presentation" id="presentation-section">
+        <div className="presentation" id="presentation-section">
              <link href='https://fonts.googleapis.com/css?family=Handjet' rel='stylesheet'></link>
               <link href='https://fonts.googleapis.com/css?family=Inknut Antiqua' rel='stylesheet'></link>
-            <div class="grillePresentation">
-                <div class="photo">
-                    <div class="me">
+            <div className="grillePresentation">
+                <div className="photo">
+                    <div className="me">
                         <img src={MoiImage} />
                     </div>
                     <br />
-                    <div class="company">
+                    <div className="company">
                         <h2>Dream Company Name</h2>
                         <img src={CompanyImage} />
                         <p> Jayrus Corporation </p>
                     </div>
                 </div>
         
-                <div class="moi">
+                <div className="moi">
                     <h2>IT technologies and Game Development  Enthusiast.</h2>
                     <br />
                     <p>I’m Sainth-Nathan Ahoussi, a Graduate to be of IUT of Orsay, 
@@ -59,7 +59,7 @@ const Presentation = () => {
                     <strong><i> Contact Form section.</i></strong></p>
                     <br />
                     <br />
-                    <div class="cv"><a href="/CurriculumVitae_Alternance_AHOUSSI.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
+                    <div className="cv"><a href="/CurriculumVitae_Alternance_AHOUSSI.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
                     <br />
                     <br />
                 </div>
