@@ -28,7 +28,7 @@ const Header = () => {
                             <li><HashLink to="/#presentation-section"><span className="highlight">Who I am ?</span></HashLink></li>
                             <li><Link to="/projects">My Projects</Link></li>
                             <li><HashLink to="/#experience-section">My Experiences</HashLink></li>
-                            <li><Link to="/Certifications">My Certifications</Link></li>
+                            <li><Link to="/">My Certifications</Link></li>
                         </ul>    
                     </nav>   
                 </div>

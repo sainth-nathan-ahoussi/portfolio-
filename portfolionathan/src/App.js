@@ -46,11 +46,11 @@ function App() {
                 } />
 
                   {/* Projects Page Route */}
-                <Route path="/Certifications" element={
+                {/* <Route path="/Certifications" element={
                     <>
                         <Certifications />
                     </>
-                } />
+                } /> */}
                 
             </Routes>
             <Footer />
